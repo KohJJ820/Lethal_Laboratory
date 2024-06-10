@@ -7,7 +7,7 @@
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": true,
+    "adaptGameResolutionAtRuntime": false,
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
@@ -16,15 +16,15 @@
     "pixelsRounding": true,
     "projectUuid": "cc84ac73-84d7-4a59-87ad-c22a5941e5c3",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Lethal Laboratory",
     "description": "",
     "author": "",
-    "windowWidth": 960,
-    "windowHeight": 720,
+    "windowWidth": 800,
+    "windowHeight": 600,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -76,6 +76,15 @@
         "name": "duck_brown.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "C:/Users/user/Pictures/character_20x20_black.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:\\Users\\user\\Pictures\\character_20x20_black.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
