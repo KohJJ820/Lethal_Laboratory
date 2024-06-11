@@ -105,6 +105,1671 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../Players/slicedx3/players blue x3_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Players\\slicedx3\\players blue x3_0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_22.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_23.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_24.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_25.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_26.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_29.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_40.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_41.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_42.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_43.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_51.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_52.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_53.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_54.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_55.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Characters/Players/players blue x3_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Characters\\Players\\players blue x3_56.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tiles/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tiles\\tile006.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tiles/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tiles\\tile005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tiles/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tiles\\tile007.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background/bg0.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Background\\bg0.jpeg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background/bg1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Background\\bg1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background/bg2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Background\\bg2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background/bg3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Background\\bg3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background/bg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Background\\bg4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile000.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile001.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile007.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile008.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile009.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile010.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile011.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile012.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile013.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile014.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile015.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile016.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile017.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile018.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile019.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile020.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile021.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile022.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile023.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/electric_turret/tile024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\electric_turret\\tile024.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_activate/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_activate\\tile002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_activate/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_activate\\tile003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_activate/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_activate\\tile004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_activate/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_activate\\tile005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_activate/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_activate\\tile006.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_activate/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_activate\\tile007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_activate/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_activate\\tile008.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_activate/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_activate\\tile009.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_activate/tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_activate\\tile010.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_activate/tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_activate\\tile011.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_deactivate/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_deactivate\\tile000.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_deactivate/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_deactivate\\tile001.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_deactivate/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_deactivate\\tile002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_deactivate/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_deactivate\\tile003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_deactivate/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_deactivate\\tile004.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_deactivate/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_deactivate\\tile005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_deactivate/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_deactivate\\tile006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_idle/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_idle\\tile000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_idle/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_idle\\tile001.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_idle/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_idle\\tile002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_idle/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_idle\\tile003.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_idle/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_idle\\tile004.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_idle/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_idle\\tile005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_idle/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_idle\\tile006.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_idle/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_idle\\tile007.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_idle/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_idle\\tile000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_idle/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_idle\\tile001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_idle/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_idle\\tile002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_idle/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_idle\\tile003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_idle/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_idle\\tile004.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_idle/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_idle\\tile005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_idle/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_idle\\tile006.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_idle/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_idle\\tile007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_idle/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_idle\\tile008.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_idle/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_idle\\tile009.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_deactivate/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_deactivate\\tile007.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_activate/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_activate\\tile000.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_activate/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_activate\\tile001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_activate/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_activate\\tile002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_activate/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_activate\\tile003.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_activate/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_activate\\tile004.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_activate/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_activate\\tile005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_activate/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_activate\\tile006.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_activate/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_activate\\tile007.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_activate/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_activate\\tile008.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_activate/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_activate\\tile009.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_deactivate/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_deactivate\\tile000.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_deactivate/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_deactivate\\tile001.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_deactivate/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_deactivate\\tile002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_deactivate/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_deactivate\\tile003.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_deactivate/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_deactivate\\tile004.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_deactivate/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_deactivate\\tile005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/laser_spikes_deactivate/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\laser_spikes_deactivate\\tile006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile000.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile001.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile003.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile007.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile008.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile009.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile010.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile011.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile012.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile013.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile014.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile015.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile016.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_idle/tile017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_idle\\tile017.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile000.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile004.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile006.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile007.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile008.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile009.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile010.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile011.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile012.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile013.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile014.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile015.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile016.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/barrier_deactivate/tile017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\barrier_deactivate\\tile017.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile000.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile001.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile003.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile004.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile006.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile007.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile008.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile009.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile010.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile011.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile012.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile013.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile014.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile015.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile016.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile017.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile018.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_idle/tile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_idle\\tile019.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile001.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile006.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile008.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile009.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile010.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile011.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile012.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile013.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile014.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile015.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile016.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile017.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile018.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/control_panel_deactivate/tile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\control_panel_deactivate\\tile019.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
