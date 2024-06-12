@@ -26,22 +26,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0.9937936772046589,
-      "height": 600,
-      "layer": "",
-      "name": "Background",
-      "persistentUuid": "4b41cb8e-bf2d-4c57-8a4c-6d82907e1052",
-      "width": 800.0039101497505,
-      "x": 0,
-      "y": 0,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -55,20 +39,25 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 600,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "ae340d2c-56d2-4df5-9bd9-445a78934ab7",
+      "width": 800,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Background",
-      "texture": "Asset\\Background\\bg0.jpeg",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
     {
       "assetStoreId": "",
       "bold": true,
@@ -114,9 +103,6 @@
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "Background"
-      },
       {
         "objectName": "Lethal_Laboratory"
       }
