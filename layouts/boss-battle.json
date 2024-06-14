@@ -81,6 +81,10 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
       "name": "PlatformerObject",
       "type": "PlatformBehavior::PlatformerObjectBehavior"
     },
@@ -91,6 +95,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

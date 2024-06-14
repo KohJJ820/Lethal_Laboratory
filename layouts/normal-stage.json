@@ -18,21 +18,10 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7537544073501752,
+    "zoomFactor": 0.8897031997773317,
     "windowMask": false
   },
   "objectsGroups": [
-    {
-      "name": "Players",
-      "objects": [
-        {
-          "name": "Player1"
-        },
-        {
-          "name": "Player2"
-        }
-      ]
-    },
     {
       "name": "Obstacles",
       "objects": [
@@ -64,7 +53,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
+      "depth": 0.9999999999999993,
       "height": 600,
       "keepRatio": true,
       "layer": "Background",
@@ -902,6 +891,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "player movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1194,14 +1184,63 @@
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Player1",
-                        "PlatformerObject"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "ladder",
+                            "Player1",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLadderKey"
+                          },
+                          "parameters": [
+                            "Player1",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "ladder",
+                            "Player1",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Player1",
+                            "PlatformerObject"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -1366,6 +1405,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
