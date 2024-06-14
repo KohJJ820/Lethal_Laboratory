@@ -21,33 +21,7 @@
     "zoomFactor": 0.8897031997773317,
     "windowMask": false
   },
-  "objectsGroups": [
-    {
-      "name": "Obstacles",
-      "objects": [
-        {
-          "name": "Laser"
-        },
-        {
-          "name": "Spikes"
-        },
-        {
-          "name": "Barrier"
-        }
-      ]
-    },
-    {
-      "name": "Objects",
-      "objects": [
-        {
-          "name": "Turret"
-        },
-        {
-          "name": "ControlPanel"
-        }
-      ]
-    }
-  ],
+  "objectsGroups": [],
   "variables": [],
   "instances": [
     {
@@ -1405,7 +1379,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1754,7 +1727,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "1"
+                    "0.5"
                   ]
                 },
                 {
