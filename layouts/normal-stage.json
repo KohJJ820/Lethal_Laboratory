@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,7 +17,7 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
+    "snap": true,
     "zoomFactor": 0.7791712547654587,
     "windowMask": false
   },
@@ -96,8 +96,8 @@
       "name": "Player1",
       "persistentUuid": "fb5a9789-f1cb-4eb3-bc6c-760d069739af",
       "width": 64,
-      "x": 0,
-      "y": 32,
+      "x": 160,
+      "y": 352,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -113,8 +113,8 @@
       "name": "Player2",
       "persistentUuid": "ea0a5a89-11b9-4158-8e17-61118a01936b",
       "width": 64,
-      "x": 64,
-      "y": 32,
+      "x": 224,
+      "y": 352,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -2346,7 +2346,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2361,6 +2360,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3765,24 +3765,6 @@
                     "=",
                     "\"disappear\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Winning Screen\"",
-                    "yes"
-                  ]
                 }
               ]
             }
@@ -3859,10 +3841,11 @@
           "conditions": [
             {
               "type": {
-                "value": "GlobalVariableAsBoolean"
+                "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
-                "allowMovement",
+                "Players",
+                "alive",
                 ""
               ]
             },
@@ -3951,6 +3934,14 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
             {
               "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -4180,7 +4171,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Time Challenge\"",
+                    "\"Dark Vision\"",
                     ""
                   ]
                 }
