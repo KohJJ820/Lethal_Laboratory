@@ -1983,7 +1983,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "player movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2202,7 +2201,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "player 1 controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2669,7 +2667,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2777,6 +2774,14 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Teleporter"
+              ]
+            },
             {
               "type": {
                 "value": "CollisionNP"
@@ -3186,7 +3191,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Trigger",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3411,7 +3415,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

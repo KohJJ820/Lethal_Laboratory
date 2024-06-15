@@ -4083,6 +4083,24 @@
         "name": "assets\\NewTiledSprite.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tiles/tile024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tiles\\tile024.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tiles/tile061.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tiles\\tile061.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4374,6 +4392,7 @@
       "effects": [],
       "behaviors": [
         {
+          "maxSpeed": 200,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "gravity": 700,
@@ -4388,7 +4407,6 @@
           "ignoreDefaultControls": true,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
-          "maxSpeed": 250,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
@@ -5042,20 +5060,20 @@
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 1500,
+          "deceleration": 1500,
+          "maxSpeed": 200,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "gravity": 700,
           "jumpSpeed": 400,
           "jumpSustainTime": 0.2,
           "maxFallingSpeed": 500,
-          "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
-          "deceleration": 1500,
           "ignoreDefaultControls": true,
           "ladderClimbingSpeed": 150,
-          "maxSpeed": 250,
           "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
@@ -6173,9 +6191,9 @@
       "variables": [
         {
           "folded": true,
-          "name": "id",
+          "name": "timing",
           "type": "number",
-          "value": 0
+          "value": 1
         }
       ],
       "effects": [],
@@ -7141,6 +7159,12 @@
         {
           "folded": true,
           "name": "id",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "timing",
           "type": "number",
           "value": 0
         }
@@ -8248,7 +8272,14 @@
       "name": "Barrier",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -11181,7 +11212,15 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -11242,7 +11281,15 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -12586,7 +12633,15 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -12596,7 +12651,15 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -12656,7 +12719,15 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -13622,7 +13693,14 @@
       "name": "Button",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -13922,7 +14000,14 @@
       "name": "Door",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -15739,6 +15824,134 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BottomTile",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tiles\\tile024.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BottomRightSlant",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tiles\\tile061.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -15857,6 +16070,9 @@
             "objectName": "SlantBottomTile4"
           },
           {
+            "objectName": "BottomRightSlant"
+          },
+          {
             "objectName": "LeftTopCornerTile"
           },
           {
@@ -15879,6 +16095,9 @@
           },
           {
             "objectName": "GroundBottomTile"
+          },
+          {
+            "objectName": "BottomTile"
           }
         ]
       },

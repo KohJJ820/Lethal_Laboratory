@@ -83,23 +83,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "Tiles",
-      "name": "MiddleStraightTile",
-      "persistentUuid": "77653d2f-850a-4052-b635-8b775a5489ce",
-      "width": 128,
-      "x": 672,
-      "y": 480,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 64,
       "keepRatio": true,
       "layer": "Players",
@@ -200,28 +183,17 @@
       "initialVariables": [
         {
           "folded": true,
-          "name": "id",
+          "name": "timing",
           "type": "number",
           "value": 1
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
         }
       ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "Tiles",
-      "name": "MiddleStraightTile",
-      "persistentUuid": "7c708dc6-7aa9-4665-bfaa-65ac39c43ec7",
-      "width": 192,
-      "x": 608,
-      "y": 256,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     },
     {
       "angle": 0,
@@ -346,60 +318,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "Tiles",
-      "name": "LeftSlantTile",
-      "persistentUuid": "86762b01-112a-4c63-82a0-29c6c2c47bcf",
-      "width": 0,
-      "x": 512,
-      "y": 288,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Tiles",
-      "name": "LeftSlantTileMid",
-      "persistentUuid": "3e72647d-8c19-439c-b601-2d14bfeb077d",
-      "width": 0,
-      "x": 480,
-      "y": 288,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "Tiles",
-      "name": "MiddleStraightTile",
-      "persistentUuid": "74471b3c-2afd-4434-952d-a185d4573f7e",
-      "width": 352,
-      "x": 128,
-      "y": 320,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Tiles",
       "name": "LeftTile",
       "persistentUuid": "cdf56819-435a-4119-9686-c35a03374532",
       "width": 0,
       "x": 96,
-      "y": 320,
+      "y": 288,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -424,35 +347,7 @@
           "folded": true,
           "name": "id",
           "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Obstacles",
-      "name": "Spikes",
-      "persistentUuid": "37eeb2e8-5e55-4f73-a946-ef10104bbb63",
-      "width": 0,
-      "x": 128,
-      "y": 288,
-      "zOrder": 27,
-      "numberProperties": [
-        {
-          "name": "animation",
           "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 2
         }
       ]
     },
@@ -491,258 +386,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Obstacles",
-      "name": "Spikes",
-      "persistentUuid": "3415de91-a836-475b-b3ec-4722154e8eef",
-      "width": 0,
-      "x": 160,
-      "y": 288,
-      "zOrder": 27,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Obstacles",
-      "name": "Spikes",
-      "persistentUuid": "888605ef-34c4-4a74-8a47-3bb780b00852",
-      "width": 0,
-      "x": 192,
-      "y": 288,
-      "zOrder": 27,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Obstacles",
-      "name": "Spikes",
-      "persistentUuid": "a2f3d7fc-9f07-4405-a167-c7f001e54298",
-      "width": 0,
-      "x": 256,
-      "y": 288,
-      "zOrder": 27,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Obstacles",
-      "name": "Spikes",
-      "persistentUuid": "b5d317bc-c622-4445-bae6-117cd24e3b01",
-      "width": 0,
-      "x": 288,
-      "y": 288,
-      "zOrder": 27,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Obstacles",
-      "name": "Spikes",
-      "persistentUuid": "b6149404-82bf-403b-a317-df4c6e7bfe30",
-      "width": 0,
-      "x": 224,
-      "y": 288,
-      "zOrder": 27,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Obstacles",
-      "name": "Spikes",
-      "persistentUuid": "f6919cfa-0eba-46f5-ad29-539d3927b421",
-      "width": 0,
-      "x": 320,
-      "y": 288,
-      "zOrder": 27,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Obstacles",
-      "name": "Spikes",
-      "persistentUuid": "44b5a7fe-02fb-4ced-a44e-6e6fe235d181",
-      "width": 0,
-      "x": 352,
-      "y": 288,
-      "zOrder": 27,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Obstacles",
-      "name": "Spikes",
-      "persistentUuid": "15d5de37-7252-4962-b1ac-39cf41fb9b17",
-      "width": 0,
-      "x": 384,
-      "y": 288,
-      "zOrder": 27,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Obstacles",
-      "name": "Spikes",
-      "persistentUuid": "c7d9b084-c7a5-4345-99f0-e8ff50815cab",
-      "width": 0,
-      "x": 416,
-      "y": 288,
-      "zOrder": 27,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 64,
@@ -756,14 +399,7 @@
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 1
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -775,7 +411,7 @@
       "persistentUuid": "926f18bd-cd2a-4cbc-a149-307e44a6746e",
       "width": 0,
       "x": 0,
-      "y": 352,
+      "y": 320,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -829,11 +465,1175 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "LeftBottomCornerTile",
+      "persistentUuid": "625ec496-e717-4f7c-a565-47de773f6fee",
+      "width": 0,
+      "x": 608,
+      "y": 96,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "LeftSideTile",
+      "persistentUuid": "25e917ed-a6fe-4edb-b331-296cc753dcc3",
+      "width": 32,
+      "x": 608,
+      "y": 0,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "SlantBottomTile3",
+      "persistentUuid": "ec879583-b2e7-4acf-8301-5e4669d97211",
+      "width": 0,
+      "x": 544,
+      "y": 288,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "GroundBottomTile",
+      "persistentUuid": "03945e4d-da8f-46f2-9e4a-9687d26e6582",
+      "width": 160,
+      "x": 640,
+      "y": 96,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "UndergroundTile",
+      "persistentUuid": "a7bccd2c-acd0-4935-9b28-f169d5c34826",
+      "width": 160,
+      "x": 640,
+      "y": 0,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "d5117807-b170-414f-bfce-b3ed9e30769b",
+      "width": 0,
+      "x": 128,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "MiddleUpTile",
+      "persistentUuid": "f0b74bd2-320c-4143-8054-a670b2be1bc3",
+      "width": 32,
+      "x": 128,
+      "y": 320,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "BottomTile",
+      "persistentUuid": "11d66ce4-9670-4d33-b5ae-5d54399724d6",
+      "width": 0,
+      "x": 128,
+      "y": 448,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "LeftTopCornerTile",
+      "persistentUuid": "5f89e257-0271-420b-81e2-2e4759f8e61d",
+      "width": 0,
+      "x": 96,
+      "y": 544,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "GroundTile",
+      "persistentUuid": "ba65bf47-8ee6-4c2d-88f1-ccffba45d5ea",
+      "width": 512,
+      "x": 128,
+      "y": 544,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "LeftBottomCornerTile",
+      "persistentUuid": "699b2fab-031d-432e-9468-e52d5d979827",
+      "width": 0,
+      "x": 96,
+      "y": 576,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "UndergroundTile",
+      "persistentUuid": "c536abbe-db8c-4f6a-af40-ebb380bf442a",
+      "width": 512,
+      "x": 128,
+      "y": 576,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Laser",
+      "persistentUuid": "84c8c833-ef5f-4c14-b6bd-104173f7e00b",
+      "width": 64,
+      "x": 115,
+      "y": 480,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Door",
+      "persistentUuid": "140e0491-2770-4416-925b-0d37380adb00",
+      "width": 0,
+      "x": 608,
+      "y": 192,
+      "zOrder": 52,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "MiddleStraightTile",
+      "persistentUuid": "5fff2316-93dc-4b0a-a52c-fbe80ac41aec",
+      "width": 384,
+      "x": 160,
+      "y": 416,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "RightTile",
+      "persistentUuid": "89532adf-fc5f-444a-aab9-94658e24b604",
+      "width": 0,
+      "x": 544,
+      "y": 416,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "ladder",
+      "persistentUuid": "3e5f51ed-2f31-4224-8007-3eea78a5ee67",
+      "width": 0,
+      "x": 576,
+      "y": 416,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Objects",
+      "name": "ControlPanel",
+      "persistentUuid": "6be2ee04-0aaf-4854-b0c1-8aee48d0c3a9",
+      "width": 0,
+      "x": 192,
+      "y": 384,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "GroundTile",
+      "persistentUuid": "7dff5aaa-f7b1-43bf-8b83-e22378f015b4",
+      "width": 416,
+      "x": 128,
+      "y": 288,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "GroundBottomTile",
+      "persistentUuid": "33508b07-84ab-46d1-b787-6a0022569166",
+      "width": 384,
+      "x": 160,
+      "y": 320,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "RightSlantBottomTile",
+      "persistentUuid": "15188327-a21d-48c0-8e61-3167fe6d3c2b",
+      "width": 0,
+      "x": 544,
+      "y": 320,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "RightSlantBottomTile2",
+      "persistentUuid": "0123715f-b647-4b83-848a-6fbafb0580b8",
+      "width": 0,
+      "x": 576,
+      "y": 320,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "GroundTile",
+      "persistentUuid": "612536ad-b3f8-45d8-8700-4915db02a79f",
+      "width": 192,
+      "x": 608,
+      "y": 256,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "BottomRightSlant",
+      "persistentUuid": "3dd7b3bd-d3f3-4cd0-9533-c6c74f26ade1",
+      "width": 0,
+      "x": 576,
+      "y": 288,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "GroundBottomTile",
+      "persistentUuid": "3e2d40e7-c0e8-492d-8613-7de556125195",
+      "width": 192,
+      "x": 608,
+      "y": 288,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Barrier",
+      "persistentUuid": "0900446c-2685-4c6a-ad4c-fe0f01a0231c",
+      "width": 0,
+      "x": 640,
+      "y": 320,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "0d81503f-34b6-4043-8543-cb64b3eec5bb",
+      "width": 0,
+      "x": 256,
+      "y": 384,
+      "zOrder": 67,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "57d6a2a0-99cc-48a5-b4c6-a1c33b065fe7",
+      "width": 0,
+      "x": 288,
+      "y": 384,
+      "zOrder": 67,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "4366cb77-56f2-4dd5-a5b3-3812e81ed42b",
+      "width": 0,
+      "x": 320,
+      "y": 384,
+      "zOrder": 67,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "e791ca09-35b2-42f8-8cf7-0fc6ad12b16f",
+      "width": 0,
+      "x": 448,
+      "y": 384,
+      "zOrder": 67,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "ac8f6b34-af7f-484d-8a57-dc3c1d4430fa",
+      "width": 0,
+      "x": 480,
+      "y": 384,
+      "zOrder": 67,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "0a2ecf92-5a72-4e90-a4e6-776e0f3afb38",
+      "width": 0,
+      "x": 512,
+      "y": 384,
+      "zOrder": 67,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "GroundTile",
+      "persistentUuid": "ff9f2969-e754-4307-8655-eddd1957a6e6",
+      "width": 128,
+      "x": 672,
+      "y": 480,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "UndergroundTile",
+      "persistentUuid": "e1b820d1-44e2-41c5-b684-bbeda9fc0e8e",
+      "width": 128,
+      "x": 672,
+      "y": 512,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 36,
+      "keepRatio": true,
+      "layer": "Objects",
+      "name": "Core",
+      "persistentUuid": "16ad8724-5d1c-47c5-9bb6-bd4cc32d0d37",
+      "width": 36,
+      "x": 351,
+      "y": 492,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "Objects",
+      "name": "Teleporter",
+      "persistentUuid": "28bc2014-75b4-44f8-9014-caf464f97290",
+      "width": 128,
+      "x": 673,
+      "y": 380,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "c57908e3-bd85-4dc4-b749-d9387a902063",
+      "width": 0,
+      "x": 96,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "e992288d-3bba-4621-95c5-1155f64f7c62",
+      "width": 0,
+      "x": 192,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "3626aa20-afc3-4689-9ad1-2c170bdf0dfd",
+      "width": 0,
+      "x": 160,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "2570348d-d78e-4858-aa7f-618467b0e690",
+      "width": 0,
+      "x": 256,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "6453685b-5ed7-497c-856f-8516e0c811ce",
+      "width": 0,
+      "x": 224,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "dfaf84ec-64c1-478c-9e9b-ee9ecd53ade9",
+      "width": 0,
+      "x": 320,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "e4ce15e2-fc37-48cc-bb05-ab6c8a2192c3",
+      "width": 0,
+      "x": 288,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "7b03e044-a74b-48e2-b9d3-7605e72ebe81",
+      "width": 0,
+      "x": 384,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "67558e6b-0fd7-4956-b306-bef8d640c58e",
+      "width": 0,
+      "x": 352,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "f22990e8-a3f4-44ab-acc8-c129c6fc838a",
+      "width": 0,
+      "x": 448,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "8ea85fec-1774-43b2-9817-68c5b4445453",
+      "width": 0,
+      "x": 416,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Spikes",
+      "persistentUuid": "2c4fc2fa-d204-43c3-b5d6-c5d0c901a9b0",
+      "width": 0,
+      "x": 480,
+      "y": 256,
+      "zOrder": 27,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "timing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Objects",
+      "name": "Button",
+      "persistentUuid": "9fdb7cec-db29-4834-8b6b-5553b2563f71",
+      "width": 32,
+      "x": 384,
+      "y": 384,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 2
+        }
+      ]
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "NewSprite"
+      }
+    ]
   },
   "events": [
     {
@@ -867,15 +1667,64 @@
             "allowMovement",
             "True"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Teleporter"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "ControlPanel",
+                "id",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "ControlPanel",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "add player death after falling"
     },
     {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "player movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1168,7 +2017,17 @@
                       ]
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Player1",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -1195,30 +2054,10 @@
                             "Player1",
                             "PlatformerObject"
                           ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                        },
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "ladder",
-                            "Player1",
-                            "",
-                            "",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateJumpKey"
+                            "value": "PlatformBehavior::SimulateUpKey"
                           },
                           "parameters": [
                             "Player1",
@@ -1312,6 +2151,45 @@
                       "parameters": [
                         "Player2",
                         "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "ladder",
+                            "Player2",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLadderKey"
+                          },
+                          "parameters": [
+                            "Player2",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateUpKey"
+                          },
+                          "parameters": [
+                            "Player2",
+                            "PlatformerObject"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -1521,7 +2399,7 @@
                   },
                   "parameters": [
                     "Obstacles",
-                    "id",
+                    "timing",
                     "=",
                     "1"
                   ]
@@ -1729,6 +2607,23 @@
                     "=",
                     "Turret.BoundingBoxBottom()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Turret",
+                    "Animation",
+                    "=",
+                    "\"idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -1749,14 +2644,6 @@
                     "Animation",
                     "=",
                     "\"shoot\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
                   ]
                 }
               ]
@@ -1859,6 +2746,25 @@
                         "3",
                         "yes"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.8"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Turret",
+                        "Animation",
+                        "=",
+                        "\"idle\""
+                      ]
                     }
                   ]
                 },
@@ -1877,18 +2783,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Bullet",
-                        "Turret.X()",
-                        "Turret.Y()",
-                        "\"HUD\""
-                      ]
-                    },
                     {
                       "type": {
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
@@ -1911,6 +2805,25 @@
                         "\"linear\"",
                         "3",
                         "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.8"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Turret",
+                        "Animation",
+                        "=",
+                        "\"idle\""
                       ]
                     }
                   ]
@@ -1968,7 +2881,19 @@
             }
           ],
           "parameters": []
-        },
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "objects",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
           "colorB": 228,
           "colorG": 176,
@@ -1983,23 +2908,68 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Players",
-                    "ControlPanel",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "e"
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "ControlPanel",
+                            "Player2",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Down"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "ControlPanel",
+                            "Player1",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "e"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
@@ -2034,7 +3004,7 @@
                         "ControlPanel",
                         "id",
                         "=",
-                        "2"
+                        "1"
                       ]
                     },
                     {
@@ -2045,7 +3015,18 @@
                         "Spikes",
                         "id",
                         "=",
-                        "2"
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Door",
+                        "id",
+                        "=",
+                        "1"
                       ]
                     },
                     {
@@ -2065,6 +3046,28 @@
                         "Animation",
                         "=",
                         "\"deactivate\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Door",
+                        "Animation",
+                        "=",
+                        "\"close\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Door",
+                        "id",
+                        "=",
+                        "2"
                       ]
                     }
                   ],
@@ -2114,11 +3117,745 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "ControlPanel",
+                        "id",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Barrier",
+                        "id",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Barrier",
+                        "Animation",
+                        "=",
+                        "\"deactivate\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Barrier",
+                            "Animation",
+                            "=",
+                            "\"deactivate\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                          },
+                          "parameters": [
+                            "Barrier",
+                            "Animation"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Barrier",
+                            "Animation",
+                            "=",
+                            "\"idleDeactivated\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "button",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Button",
+                    "id",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Door",
+                    "id",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Button",
+                        "Players",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Button",
+                        "Animation",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Door",
+                        "Animation",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Index"
+                      },
+                      "parameters": [
+                        "Button",
+                        "Animation",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Button",
+                        "Players",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Button",
+                        "Animation",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Door",
+                        "Animation",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                          },
+                          "parameters": [
+                            "Button",
+                            "Animation"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                          },
+                          "parameters": [
+                            "Button",
+                            "Animation",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                          },
+                          "parameters": [
+                            "Door",
+                            "Animation",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "core",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Core",
+                    "Players",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Core",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Teleporter",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Teleporter",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "teleporter",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Teleporter",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Teleporter",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Teleporter",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Teleporter"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Teleporter",
+                    "Player1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Teleporter",
+                    "Player2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player1",
+                    "Animation",
+                    "=",
+                    "\"idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player2",
+                    "Animation",
+                    "=",
+                    "\"idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "allowMovement",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Player1",
+                    "Tween",
+                    "\"teleport\"",
+                    "0",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Player2",
+                    "Tween",
+                    "\"teleport\"",
+                    "0",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Teleporter",
+                    "Animation",
+                    "=",
+                    "\"disappear\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Winning Screen\"",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": true,
+      "folded": true,
+      "name": "camera controls",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.2",
+                "\"Tiles\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.2",
+                "\"Objects\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.2",
+                "\"Players\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.2",
+                "\"Projectiles\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.2",
+                "\"Obstacles\"",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Players",
+                "",
+                "\"Tiles\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Players",
+                "",
+                "\"Objects\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Players",
+                "",
+                "\"Players\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Players",
+                "",
+                "\"Projectiles\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Players",
+                "",
+                "\"Obstacles\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "800",
+                "600",
+                "\"Tiles\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "800",
+                "600",
+                "\"Objects\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "800",
+                "600",
+                "\"Players\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "800",
+                "600",
+                "\"Projectiles\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "800",
+                "600",
+                "\"Obstacles\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -2182,7 +3919,7 @@
       "isLocked": false,
       "name": "Background",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
