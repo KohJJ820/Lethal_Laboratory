@@ -18,10 +18,37 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8141881203709924,
+    "zoomFactor": 0.8993607583666632,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Texts",
+      "objects": [
+        {
+          "name": "jump"
+        },
+        {
+          "name": "Spike"
+        },
+        {
+          "name": "ButtonText"
+        },
+        {
+          "name": "Computer"
+        },
+        {
+          "name": "Climb"
+        },
+        {
+          "name": "CoreText"
+        },
+        {
+          "name": "PortalText"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -287,7 +314,7 @@
       "name": "Player2",
       "persistentUuid": "46522d12-6ded-48ed-866e-d6c08205df25",
       "width": 64,
-      "x": 480,
+      "x": 704,
       "y": 512,
       "zOrder": 20,
       "numberProperties": [],
@@ -304,7 +331,7 @@
       "name": "Player1",
       "persistentUuid": "5d8e7860-87f0-4fdc-b72f-2a017915747a",
       "width": 64,
-      "x": 544,
+      "x": 512,
       "y": 512,
       "zOrder": 21,
       "numberProperties": [],
@@ -336,7 +363,7 @@
       "layer": "Tiles",
       "name": "MiddleStraightTile",
       "persistentUuid": "816e5769-0c1e-4269-88ab-366c1a7546ea",
-      "width": 96,
+      "width": 160,
       "x": 128,
       "y": 432,
       "zOrder": 23,
@@ -353,7 +380,7 @@
       "name": "RightTile",
       "persistentUuid": "e5637f71-2419-47f7-96b1-3eb467acfaa6",
       "width": 0,
-      "x": 224,
+      "x": 288,
       "y": 432,
       "zOrder": 24,
       "numberProperties": [],
@@ -369,8 +396,8 @@
       "layer": "Tiles",
       "name": "MiddleStraightTile",
       "persistentUuid": "b76f6b53-bb67-4de9-a615-30753b065bd7",
-      "width": 416,
-      "x": 384,
+      "width": 384,
+      "x": 416,
       "y": 384,
       "zOrder": 25,
       "numberProperties": [],
@@ -386,7 +413,7 @@
       "name": "LeftTile",
       "persistentUuid": "1aed262d-c825-41cc-90ea-c0d0611967cf",
       "width": 0,
-      "x": 352,
+      "x": 384,
       "y": 384,
       "zOrder": 26,
       "numberProperties": [],
@@ -403,7 +430,7 @@
       "name": "Spikes",
       "persistentUuid": "6f0f7cee-29ca-469a-b379-7166b35ad799",
       "width": 32,
-      "x": 512,
+      "x": 480,
       "y": 352,
       "zOrder": 27,
       "numberProperties": [
@@ -431,7 +458,7 @@
       "name": "Spikes",
       "persistentUuid": "f96181cf-b3f9-4c47-9163-339817514ed2",
       "width": 0,
-      "x": 544,
+      "x": 512,
       "y": 352,
       "zOrder": 28,
       "numberProperties": [
@@ -475,7 +502,7 @@
       "name": "LeftTopCornerTile",
       "persistentUuid": "320503d4-785c-4c88-9e4a-cf150f87384a",
       "width": 0,
-      "x": 672,
+      "x": 640,
       "y": 256,
       "zOrder": 31,
       "numberProperties": [],
@@ -491,8 +518,8 @@
       "layer": "Tiles",
       "name": "GroundTile",
       "persistentUuid": "77f18942-fbc8-4b4c-b06b-b39093f12d22",
-      "width": 96,
-      "x": 704,
+      "width": 128,
+      "x": 672,
       "y": 256,
       "zOrder": 32,
       "numberProperties": [],
@@ -508,7 +535,7 @@
       "name": "LeftSideTile",
       "persistentUuid": "58085b1a-ffab-48e8-a1aa-bcf1d35f54ce",
       "width": 0,
-      "x": 672,
+      "x": 640,
       "y": 288,
       "zOrder": 33,
       "numberProperties": [],
@@ -629,8 +656,8 @@
       "name": "Core",
       "persistentUuid": "f5dc1aff-d866-4784-8629-d4705991c15f",
       "width": 36,
-      "x": 604,
-      "y": 60,
+      "x": 576,
+      "y": 48,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -1004,8 +1031,8 @@
       "layer": "Objects",
       "name": "Teleporter",
       "persistentUuid": "ebf9f112-cfeb-47a2-bc0f-b9953fa9b216",
-      "width": 100,
-      "x": 704,
+      "width": 164,
+      "x": 668,
       "y": -4,
       "zOrder": 59,
       "numberProperties": [],
@@ -1037,7 +1064,7 @@
       "name": "Door",
       "persistentUuid": "a50f9c4e-05b2-4d74-85eb-a6a784467687",
       "width": 0,
-      "x": 672,
+      "x": 640,
       "y": 320,
       "zOrder": 61,
       "numberProperties": [],
@@ -1060,11 +1087,824 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Text",
+      "name": "MoveP1",
+      "persistentUuid": "636047c7-7443-4b9d-968c-464ad5219f96",
+      "width": 0,
+      "x": 512,
+      "y": 480,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Text",
+      "name": "MoveP2",
+      "persistentUuid": "566e6751-5ecd-4385-bbdb-061e0c1f46b2",
+      "width": 0,
+      "x": 672,
+      "y": 480,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Text",
+      "name": "jump",
+      "persistentUuid": "9e1dabd1-dc42-4056-93e4-7f230a80d07d",
+      "width": 64,
+      "x": 32,
+      "y": 384,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Trigger",
+      "name": "Trigger",
+      "persistentUuid": "692a61d4-bdfd-4dbf-9e0f-5234ef3edd1c",
+      "width": 0,
+      "x": 32,
+      "y": 480,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Trigger",
+      "name": "Trigger",
+      "persistentUuid": "0b9f979a-11ff-4a0c-8754-faa04aec3aef",
+      "width": 64,
+      "x": 384,
+      "y": 352,
+      "zOrder": 67,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Text",
+      "name": "Spike",
+      "persistentUuid": "a0f257ca-20a0-4cf0-9f2e-eb88c09a50d7",
+      "width": 0,
+      "x": 448,
+      "y": 288,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Trigger",
+      "name": "Trigger",
+      "persistentUuid": "62eedf9e-5525-48e6-9042-4a2af9f2897f",
+      "width": 0,
+      "x": 256,
+      "y": 256,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Trigger",
+      "name": "Trigger",
+      "persistentUuid": "4b9ccb3c-552f-4a56-b0cf-abb48836c110",
+      "width": 64,
+      "x": 576,
+      "y": 352,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Text",
+      "name": "ButtonText",
+      "persistentUuid": "5b6bc20d-d30b-4692-9f4f-aebdbe762af2",
+      "width": 0,
+      "x": 192,
+      "y": 192,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "Trigger",
+      "name": "Trigger",
+      "persistentUuid": "2150065c-a47c-485d-b62d-530130306bd4",
+      "width": 32,
+      "x": 512,
+      "y": 0,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Trigger",
+      "name": "Trigger",
+      "persistentUuid": "b6a6f50a-b68b-4246-9110-8701ca089610",
+      "width": 0,
+      "x": 64,
+      "y": 256,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Trigger",
+      "name": "Trigger",
+      "persistentUuid": "563a7c84-793f-4761-b98e-298af756d25c",
+      "width": 0,
+      "x": 672,
+      "y": 352,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Text",
+      "name": "Computer",
+      "persistentUuid": "0a10428b-1196-40de-9716-237bc71c2a93",
+      "width": 0,
+      "x": 682,
+      "y": 288,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Text",
+      "name": "Climb",
+      "persistentUuid": "9c55c6e6-845e-44f4-a499-247cb04de9b1",
+      "width": 0,
+      "x": 32,
+      "y": 96,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Text",
+      "name": "CoreText",
+      "persistentUuid": "bc2bcf81-3b31-47ce-b8b2-e4a4301c4a42",
+      "width": 0,
+      "x": 456,
+      "y": 32,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Text",
+      "name": "PortalText",
+      "persistentUuid": "f4fee0ff-f0d9-42ae-af12-483838a720f7",
+      "width": 0,
+      "x": 608,
+      "y": 0,
+      "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "MoveP1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "P1\na - move left\nd - move right",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 13,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "P1\na - move left\nd - move right",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 13,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "MoveP2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "P2\nleft     - move left\nright   - move right",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 13,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "P2\nleft     - move left\nright   - move right",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 13,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "jump",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Jump\nP1 - w\nP2 - up",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 13,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Jump\nP1 - w\nP2 - up",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 13,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Trigger",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tiles\\tile022.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Spike",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Beware of the spikes,\nit will cause you to die",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 13,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Beware of the spikes,\nit will cause you to die",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 13,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ButtonText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Step on the button\nto open the door",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 13,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Step on the button\nto open the door",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 13,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Computer",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Execute to turn off \nthe barrier\nP1 - e\nP2 - /",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 12,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Execute to turn off \nthe barrier\nP1 - e\nP2 - /",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 12,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Climb",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "climb up\nP1 - w\nP2 - up",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 13,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "climb up\nP1 - w\nP2 - up",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 13,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "CoreText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "collect the core",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 13,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "collect the core",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 13,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PortalText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "NOW, \nget in the portal",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 13,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "NOW, \nget in the portal",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 13,
+        "color": "255;255;255"
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "MoveP1"
+      },
+      {
+        "objectName": "Trigger"
+      },
+      {
+        "objectName": "MoveP2"
+      },
+      {
+        "objectName": "jump"
+      },
+      {
+        "objectName": "Spike"
+      },
+      {
+        "objectName": "ButtonText"
+      },
+      {
+        "objectName": "Computer"
+      },
+      {
+        "objectName": "Climb"
+      },
+      {
+        "objectName": "CoreText"
+      },
+      {
+        "objectName": "PortalText"
+      }
+    ]
   },
   "events": [
     {
@@ -1082,6 +1922,16 @@
       "actions": [
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "CurrentLevel",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
@@ -1095,6 +1945,25 @@
           },
           "parameters": [
             "Teleporter"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Texts",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Trigger"
           ]
         }
       ]
@@ -1217,13 +2086,6 @@
                     "1"
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
-                }
               ]
             },
             {
@@ -1340,6 +2202,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "player 1 controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1531,6 +2394,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "player 2 controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1750,6 +2614,24 @@
                 "allowMovement",
                 "="
               ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Over Screen\"",
+                "yes"
+              ]
             }
           ],
           "events": [
@@ -1787,6 +2669,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1796,34 +2679,14 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "CollisionNP"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Core",
-                    "Player1",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Core",
-                    "Player2",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
+              "parameters": [
+                "Core",
+                "Players",
+                "",
+                "",
+                ""
               ]
             }
           ],
@@ -1855,6 +2718,20 @@
                 "Animation",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "PortalText",
+                "Tween",
+                "\"show portal\"",
+                "255",
+                "\"linear\"",
+                "0.5",
+                ""
               ]
             }
           ]
@@ -1902,34 +2779,141 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "CollisionNP"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Button",
-                    "Player1",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Button",
-                    "Player2",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
+              "parameters": [
+                "Teleporter",
+                "Player1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Teleporter",
+                "Player2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player1",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player2",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "allowMovement",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Player1",
+                "Tween",
+                "\"teleport\"",
+                "0",
+                "\"linear\"",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Player2",
+                "Tween",
+                "\"teleport\"",
+                "0",
+                "\"linear\"",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Teleporter",
+                "Animation",
+                "=",
+                "\"disappear\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Winning Screen\"",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Button",
+                "Players",
+                "",
+                "",
+                ""
               ]
             }
           ],
@@ -1959,6 +2943,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1979,20 +2964,7 @@
               },
               "parameters": [
                 "Button",
-                "Player1",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Button",
-                "Player2",
+                "Players",
                 "",
                 "",
                 ""
@@ -2063,6 +3035,484 @@
               ]
             }
           ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "ControlPanel",
+                        "Player2",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "RControl"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "ControlPanel",
+                        "Player1",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ControlPanel",
+                "Animation",
+                "=",
+                "\"deactivate\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Barrier",
+                "Animation",
+                "=",
+                "\"deactivate\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Barrier",
+                    "Animation",
+                    "=",
+                    "\"deactivate\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Barrier",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Barrier",
+                    "Animation",
+                    "=",
+                    "\"idleDeactivated\""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Trigger",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Trigger",
+                "Players",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Trigger",
+                    "ID",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "jump",
+                    "Tween",
+                    "\"show jump\"",
+                    "255",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Trigger",
+                    "ID",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "Tween",
+                    "\"show spike\"",
+                    "255",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Trigger",
+                    "ID",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "ButtonText",
+                    "Tween",
+                    "\"show button\"",
+                    "255",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Trigger",
+                    "ID",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Computer",
+                    "Tween",
+                    "\"show computer\"",
+                    "255",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Trigger",
+                    "ID",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Climb",
+                    "Tween",
+                    "\"show climb\"",
+                    "255",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Trigger",
+                    "ID",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "CoreText",
+                    "Tween",
+                    "\"show core\"",
+                    "255",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Obstacles",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Players",
+                "Obstacles",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Obstacles",
+                    "Animation",
+                    "=",
+                    "\"activate\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "alive",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Animation",
+                    "=",
+                    "\"die\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Obstacles",
+                    "Animation",
+                    "=",
+                    "\"idleActivated\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "alive",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Animation",
+                    "=",
+                    "\"die\""
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -2126,7 +3576,7 @@
       "isLocked": false,
       "name": "Background",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -2256,6 +3706,72 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
+      "name": "Trigger",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Text",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
       "name": "Players",
       "renderingType": "",
       "visibility": true,
@@ -2311,6 +3827,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "Tween",

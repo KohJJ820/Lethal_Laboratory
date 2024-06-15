@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8897031997773317,
+    "zoomFactor": 0.8054451666651838,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -849,6 +849,16 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "CurrentLevel",
+            "=",
+            "2"
+          ]
+        },
         {
           "type": {
             "value": "SetGlobalVariableAsBoolean"
