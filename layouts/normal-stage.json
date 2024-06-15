@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,12 +17,19 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.8054451666651838,
+    "snap": false,
+    "zoomFactor": 0.7791712547654587,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "passed",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -1612,28 +1619,109 @@
           "value": 2
         }
       ]
-    }
-  ],
-  "objects": [
+    },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 346,
+      "keepRatio": true,
+      "layer": "Popup",
+      "name": "PopUpBackground",
+      "persistentUuid": "a2af9f0e-fb19-471c-b489-53cbe7daf632",
+      "width": 407,
+      "x": 210,
+      "y": 600,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Popup",
+      "name": "PopupTitle",
+      "persistentUuid": "fec6c943-251a-4e4d-b6c8-e005ee0b7d33",
+      "width": 0,
+      "x": 270,
+      "y": 645,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Popup",
+      "name": "MenuText",
+      "persistentUuid": "fb62b6c7-41fc-4ee3-b871-8394b590bcac",
+      "width": 0,
+      "x": 305,
+      "y": 830,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Popup",
+      "name": "RetryText",
+      "persistentUuid": "2fce0af0-b11e-4347-bfd1-7f870eaa26da",
+      "width": 0,
+      "x": 350,
+      "y": 770,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Popup",
+      "name": "NextLevelText",
+      "persistentUuid": "03d4dfbc-c58e-4a6c-98a9-e5383e2cffd9",
+      "width": 0,
+      "x": 285,
+      "y": 770,
+      "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 8,
+      "height": 600,
+      "keepRatio": true,
+      "layer": "Popup",
+      "name": "Cover",
+      "persistentUuid": "992247fc-fdad-4c3f-b703-4da1bfa6bc00",
+      "width": 800,
+      "x": 0,
+      "y": 0,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "NewSprite"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "events": [
     {
@@ -1654,9 +1742,23 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
-            "CurrentLevel",
+            "currentLevel",
             "=",
             "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Cover",
+            "Tween",
+            "\"disappear\"",
+            "0",
+            "\"easeInQuad\"",
+            "1",
+            ""
           ]
         },
         {
@@ -1667,64 +1769,15 @@
             "allowMovement",
             "True"
           ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Teleporter"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "ControlPanel",
-                "id",
-                "=",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "ControlPanel",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "add player death after falling"
     },
     {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "player movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1826,13 +1879,6 @@
                     "=",
                     "1"
                   ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 }
               ]
             },
@@ -2204,6 +2250,39 @@
           "conditions": [
             {
               "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Players",
+                ">",
+                "600"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Players",
+                "alive",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
@@ -2267,6 +2346,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2899,10 +2979,39 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "control panel",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ControlPanel",
+                    "id",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "ControlPanel",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -3220,6 +3329,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3466,6 +3576,29 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Teleporter"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::Index"
                   },
                   "parameters": [
@@ -3536,6 +3669,25 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "currentLevel",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "passed",
+                    "True"
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -3645,9 +3797,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "disabled": true,
-      "folded": true,
-      "name": "camera controls",
+      "name": "popup",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -3666,193 +3816,374 @@
           "actions": [
             {
               "type": {
-                "value": "ZoomCamera"
+                "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "",
-                "1.2",
-                "\"Tiles\"",
-                "0"
+                "PopupTitle",
+                "Sticker",
+                "PopUpBackground",
+                ""
               ]
             },
             {
               "type": {
-                "value": "ZoomCamera"
+                "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "",
-                "1.2",
-                "\"Objects\"",
-                "0"
+                "MenuText",
+                "Sticker",
+                "PopUpBackground",
+                ""
               ]
             },
             {
               "type": {
-                "value": "ZoomCamera"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "1.2",
-                "\"Players\"",
-                "0"
+                "RetryText"
               ]
             },
             {
               "type": {
-                "value": "ZoomCamera"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "1.2",
-                "\"Projectiles\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "1.2",
-                "\"Obstacles\"",
-                "0"
+                "NextLevelText"
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "allowMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
           "actions": [
             {
               "type": {
-                "value": "CentreCamera"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "",
-                "Players",
-                "",
-                "\"Tiles\"",
-                "0"
+                "PopupTitle",
+                "Text",
+                "=",
+                "\"YOU DIED!\""
               ]
             },
             {
               "type": {
-                "value": "CentreCamera"
+                "value": "MettreX"
               },
               "parameters": [
-                "",
-                "Players",
-                "",
-                "\"Objects\"",
-                "0"
+                "PopupTitle",
+                "=",
+                "270"
               ]
             },
             {
               "type": {
-                "value": "CentreCamera"
+                "value": "Montre"
               },
               "parameters": [
-                "",
-                "Players",
-                "",
-                "\"Players\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Players",
-                "",
-                "\"Projectiles\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Players",
-                "",
-                "\"Obstacles\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "0",
-                "0",
-                "800",
-                "600",
-                "\"Tiles\"",
+                "RetryText",
                 ""
               ]
             },
             {
               "type": {
-                "value": "ClampCamera"
+                "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "",
-                "0",
-                "0",
-                "800",
-                "600",
-                "\"Objects\"",
+                "RetryText",
+                "Sticker",
+                "PopUpBackground",
                 ""
               ]
             },
             {
               "type": {
-                "value": "ClampCamera"
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
               },
               "parameters": [
-                "",
-                "0",
-                "0",
-                "800",
-                "600",
-                "\"Players\"",
+                "PopUpBackground",
+                "Tween",
+                "\"moveUp\"",
+                "130",
+                "\"easeOutQuad\"",
+                "1.2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "passed",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "PopupTitle",
+                "Text",
+                "=",
+                "\"YOU WIN!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PopupTitle",
+                "=",
+                "285"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "NextLevelText",
                 ""
               ]
             },
             {
               "type": {
-                "value": "ClampCamera"
+                "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "",
-                "0",
-                "0",
-                "800",
-                "600",
-                "\"Projectiles\"",
+                "NextLevelText",
+                "Sticker",
+                "PopUpBackground",
                 ""
               ]
             },
             {
               "type": {
-                "value": "ClampCamera"
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
               },
               "parameters": [
-                "",
-                "0",
-                "0",
-                "800",
-                "600",
-                "\"Obstacles\"",
+                "PopUpBackground",
+                "Tween",
+                "\"moveUp\"",
+                "130",
+                "\"easeOutQuad\"",
+                "1.2",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "MenuText",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "RetryText",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "NextLevelText",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Cover",
+                "Tween",
+                "\"appear\"",
+                "255",
+                "\"easeOutQuad\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "PopUpBackground",
+                "Tween",
+                "\"moveDown\"",
+                "600",
+                "\"easeInQuad\"",
+                "1.2",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "MenuText",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Home Screen\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "RetryText",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Normal Stage\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "NextLevelText",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Time Challenge\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -4115,7 +4446,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "HUD",
+      "name": "Popup",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -4144,6 +4475,10 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -4170,6 +4505,14 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "Tween",
