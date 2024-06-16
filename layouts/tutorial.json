@@ -2399,7 +2399,7 @@
                             "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
-                            "Players",
+                            "Player1",
                             "PlatformerObject"
                           ]
                         }
@@ -2583,15 +2583,11 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "CollisionNP"
+                            "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
-                            "ladder",
                             "Player2",
-                            "",
-                            "",
-                            ""
+                            "PlatformerObject"
                           ]
                         }
                       ],
