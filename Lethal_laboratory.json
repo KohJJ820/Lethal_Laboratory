@@ -5099,14 +5099,14 @@
       "effects": [],
       "behaviors": [
         {
-          "gravity": 500,
+          "jumpSpeed": 400,
+          "maxSpeed": 250,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "maxSpeed": 200,
+          "gravity": 500,
           "maxFallingSpeed": 500,
           "canGrabPlatforms": false,
           "slopeMaxAngle": 60,
-          "jumpSpeed": 400,
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabWithoutMoving": true,
@@ -5767,9 +5767,9 @@
       "effects": [],
       "behaviors": [
         {
-          "gravity": 500,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 500,
           "jumpSustainTime": 0.2,
           "acceleration": 1500,
           "deceleration": 1500,
@@ -6470,6 +6470,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",

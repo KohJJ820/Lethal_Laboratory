@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.9507170174253881,
+    "zoomFactor": 0.9827755090658724,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -820,7 +820,7 @@
       "name": "Turret",
       "persistentUuid": "4e56ca66-c284-4da1-8441-676398efa424",
       "width": 0,
-      "x": 0,
+      "x": 32,
       "y": 224,
       "zOrder": 112,
       "numberProperties": [
@@ -844,70 +844,6 @@
       "x": 320,
       "y": 288,
       "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "Objects",
-      "name": "Button",
-      "persistentUuid": "474d5b30-0356-4e47-b688-572a3aa6b87d",
-      "width": 32,
-      "x": 320,
-      "y": 256,
-      "zOrder": 116,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 3
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Obstacles",
-      "name": "Door",
-      "persistentUuid": "b6516127-d9f5-4f39-bf9e-1557092d6ab0",
-      "width": 0,
-      "x": 448,
-      "y": 192,
-      "zOrder": 117,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 3
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "Objects",
-      "name": "Button",
-      "persistentUuid": "e49fc7c7-48b7-436e-9561-e86aedf4e214",
-      "width": 32,
-      "x": 576,
-      "y": 224,
-      "zOrder": 118,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -969,7 +905,7 @@
       "name": "LeftTopCornerTile",
       "persistentUuid": "7c399042-ed50-4b92-bfa3-f017569179ac",
       "width": 0,
-      "x": 128,
+      "x": 160,
       "y": 256,
       "zOrder": 122,
       "numberProperties": [],
@@ -985,7 +921,7 @@
       "name": "LeftBottomCornerTile",
       "persistentUuid": "8bcf7f5d-6c9c-4735-b83b-aafd987b9e7e",
       "width": 0,
-      "x": 128,
+      "x": 160,
       "y": 288,
       "zOrder": 123,
       "numberProperties": [],
@@ -1001,8 +937,8 @@
       "layer": "Tiles",
       "name": "GroundBottomTile",
       "persistentUuid": "885f1a3c-ae15-4dde-b6d4-be1b7024f7cc",
-      "width": 64,
-      "x": 160,
+      "width": 32,
+      "x": 192,
       "y": 288,
       "zOrder": 124,
       "numberProperties": [],
@@ -1018,8 +954,8 @@
       "layer": "Tiles",
       "name": "GroundTile",
       "persistentUuid": "85ac0ef2-52a1-47de-981d-e7de4a21a093",
-      "width": 64,
-      "x": 160,
+      "width": 32,
+      "x": 192,
       "y": 256,
       "zOrder": 125,
       "numberProperties": [],
@@ -1167,7 +1103,7 @@
       "layer": "Tiles",
       "name": "GroundBottomTile",
       "persistentUuid": "370b7870-731a-4607-a67c-825f403c7895",
-      "width": 608,
+      "width": 576,
       "x": 0,
       "y": 160,
       "zOrder": 135,
@@ -1184,7 +1120,7 @@
       "name": "RightBottomCornerTile",
       "persistentUuid": "6c90a07f-7df4-412a-985f-5b37d40555c0",
       "width": 0,
-      "x": 608,
+      "x": 576,
       "y": 160,
       "zOrder": 136,
       "numberProperties": [],
@@ -1266,7 +1202,7 @@
       "name": "RightTopCornerTile",
       "persistentUuid": "1bfb1479-d959-48f7-8aa1-e8df94d663ee",
       "width": 0,
-      "x": 608,
+      "x": 576,
       "y": 128,
       "zOrder": 141,
       "numberProperties": [],
@@ -1282,7 +1218,7 @@
       "layer": "Tiles",
       "name": "GroundTile",
       "persistentUuid": "5a74c278-ed8b-4897-b61c-42f0ed7ebd9d",
-      "width": 416,
+      "width": 384,
       "x": 192,
       "y": 128,
       "zOrder": 142,
@@ -1377,7 +1313,7 @@
       "name": "Spikes",
       "persistentUuid": "cbb2693c-6478-4897-bb37-1777050d86d4",
       "width": 0,
-      "x": 576,
+      "x": 544,
       "y": 96,
       "zOrder": 148,
       "numberProperties": [
@@ -1405,7 +1341,7 @@
       "name": "Spikes",
       "persistentUuid": "17996267-c5c7-4cf1-af7a-67599ce06c9f",
       "width": 0,
-      "x": 512,
+      "x": 480,
       "y": 96,
       "zOrder": 148,
       "numberProperties": [
@@ -1433,7 +1369,7 @@
       "name": "Spikes",
       "persistentUuid": "fcc580d3-e6ed-4909-8d19-a33350aded20",
       "width": 0,
-      "x": 544,
+      "x": 512,
       "y": 96,
       "zOrder": 148,
       "numberProperties": [
@@ -1461,7 +1397,7 @@
       "name": "Spikes",
       "persistentUuid": "f3462a47-54e2-49e5-8100-d0bab41a283c",
       "width": 0,
-      "x": 416,
+      "x": 384,
       "y": 96,
       "zOrder": 148,
       "numberProperties": [
@@ -1489,7 +1425,7 @@
       "name": "Spikes",
       "persistentUuid": "b12d4615-ab5a-48ba-87a9-992b9c53e6bc",
       "width": 0,
-      "x": 384,
+      "x": 352,
       "y": 96,
       "zOrder": 148,
       "numberProperties": [
@@ -1517,7 +1453,7 @@
       "name": "Spikes",
       "persistentUuid": "64a4e26e-28f5-4eab-b9b3-49cfd4012a4c",
       "width": 0,
-      "x": 352,
+      "x": 320,
       "y": 96,
       "zOrder": 148,
       "numberProperties": [
@@ -1585,11 +1521,177 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Objects",
+      "name": "Button2",
+      "persistentUuid": "2d8a9879-9a80-40f3-b3cd-0dc527bd7f4a",
+      "width": 32,
+      "x": 320,
+      "y": 256,
+      "zOrder": 152,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Obstacles",
+      "name": "Door2",
+      "persistentUuid": "805996cc-cc73-4d51-844d-1b6496e6afd6",
+      "width": 0,
+      "x": 448,
+      "y": 192,
+      "zOrder": 153,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "Objects",
+      "name": "Button2",
+      "persistentUuid": "ca987e90-b4cc-4baf-8886-853fddcb1af4",
+      "width": 32,
+      "x": 544,
+      "y": 224,
+      "zOrder": 154,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Lighting",
+      "name": "Player1Light",
+      "persistentUuid": "b537e94a-7a62-4e34-b239-d5784b9f657a",
+      "width": 0,
+      "x": 760,
+      "y": 526,
+      "zOrder": 155,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Lighting",
+      "name": "Player2Light",
+      "persistentUuid": "5edc2f88-4781-4041-836b-e18fa270a0a6",
+      "width": 0,
+      "x": 789,
+      "y": 526,
+      "zOrder": 156,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "RightSideTile",
+      "persistentUuid": "acbd4962-991d-4812-9449-db806a32bb3a",
+      "width": 0,
+      "x": 224,
+      "y": 416,
+      "zOrder": 157,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "Tiles",
+      "name": "RightSideTile",
+      "persistentUuid": "95c988a0-f5c7-4a12-b4f0-fc137332dbda",
+      "width": 32,
+      "x": 160,
+      "y": 0,
+      "zOrder": 158,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Player1Light",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "content": {
+        "radius": 100,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Player2Light",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "content": {
+        "radius": 100,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Player1Light"
+      },
+      {
+        "objectName": "Player2Light"
+      }
+    ]
   },
   "events": [
     {
@@ -1635,6 +1737,38 @@
           "parameters": [
             "allowMovement",
             "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Players",
+            "Flippable",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Player1Light",
+            "Sticker",
+            "Player1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Player2Light",
+            "Sticker",
+            "Player2",
+            ""
           ]
         }
       ]
@@ -2621,6 +2755,31 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Turret",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "BoundingBoxBottom"
                   },
                   "parameters": [
@@ -2653,7 +2812,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "0.5"
+                    "1"
                   ]
                 },
                 {
@@ -2899,6 +3058,66 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Door",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Door2",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Door3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -2920,7 +3139,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "control panel",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2936,7 +3154,7 @@
                     "ControlPanel",
                     "id",
                     "=",
-                    "3"
+                    "1"
                   ]
                 }
               ],
@@ -3062,135 +3280,10 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "Spikes",
-                        "id",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Door",
-                        "id",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Spikes",
-                        "Animation",
-                        "=",
-                        "\"deactivate\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Door",
-                        "Animation",
-                        "=",
-                        "\"close\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Door",
-                        "id",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                          },
-                          "parameters": [
-                            "Spikes",
-                            "Animation",
-                            "=",
-                            "\"deactivate\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                          },
-                          "parameters": [
-                            "Spikes",
-                            "Animation"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Spikes",
-                            "Animation",
-                            "=",
-                            "\"idleDeactivated\""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "ControlPanel",
-                        "id",
-                        "=",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
                         "Barrier",
                         "id",
                         "=",
-                        "3"
+                        "1"
                       ]
                     },
                     {
@@ -3270,7 +3363,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3280,42 +3372,105 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "VarObjet"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
                     "Button",
-                    "id",
+                    "Players",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Button",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Button",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Button",
+                    "Players",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Button",
+                    "Animation",
                     "=",
                     "2"
                   ]
                 },
                 {
                   "type": {
-                    "value": "VarObjet"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Door",
-                    "id",
+                    "Animation",
                     "=",
                     "2"
                   ]
                 }
               ],
-              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionNP"
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                       },
                       "parameters": [
                         "Button",
-                        "Players",
-                        "",
-                        "",
-                        ""
+                        "Animation"
                       ]
                     }
                   ],
@@ -3328,7 +3483,7 @@
                         "Button",
                         "Animation",
                         "=",
-                        "1"
+                        "0"
                       ]
                     },
                     {
@@ -3339,37 +3494,139 @@
                         "Door",
                         "Animation",
                         "=",
-                        "1"
+                        "0"
                       ]
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Button2",
+                    "Players",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Button2",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
                 },
                 {
-                  "folded": true,
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Door2",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Button2",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Button2",
+                    "Players",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Button2",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Door2",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "events": [
+                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Index"
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                       },
                       "parameters": [
-                        "Button",
-                        "Animation",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Button",
-                        "Players",
-                        "",
-                        "",
-                        ""
+                        "Button2",
+                        "Animation"
                       ]
                     }
                   ],
@@ -3379,10 +3636,10 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                       },
                       "parameters": [
-                        "Button",
+                        "Button2",
                         "Animation",
                         "=",
-                        "2"
+                        "0"
                       ]
                     },
                     {
@@ -3393,47 +3650,18 @@
                         "Door",
                         "Animation",
                         "=",
-                        "2"
+                        "0"
                       ]
-                    }
-                  ],
-                  "events": [
+                    },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                          },
-                          "parameters": [
-                            "Button",
-                            "Animation"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                          },
-                          "parameters": [
-                            "Button",
-                            "Animation",
-                            "=",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                          },
-                          "parameters": [
-                            "Door",
-                            "Animation",
-                            "=",
-                            "0"
-                          ]
-                        }
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Door2",
+                        "Animation",
+                        "=",
+                        "0"
                       ]
                     }
                   ]
@@ -4106,7 +4334,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Normal Stage\"",
+                    "\"Dark Vision\"",
                     ""
                   ]
                 }
@@ -4141,7 +4369,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Time Challenge\"",
+                    "\"Boss Battle\"",
                     ""
                   ]
                 }
@@ -4211,7 +4439,7 @@
       "isLocked": false,
       "name": "Background",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -4397,37 +4625,21 @@
       ]
     },
     {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
       "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
       "isLocked": false,
-      "name": "Light",
+      "name": "Lighting",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
+      "effects": []
     },
     {
       "ambientLightColorB": 200,
@@ -4442,7 +4654,7 @@
       "isLocked": false,
       "name": "Popup",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -4479,6 +4691,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
     },
     {
       "name": "Opacity",

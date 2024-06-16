@@ -89,8 +89,8 @@
       "name": "Player1",
       "persistentUuid": "fb5a9789-f1cb-4eb3-bc6c-760d069739af",
       "width": 64,
-      "x": 160,
-      "y": 352,
+      "x": 0,
+      "y": 32,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -106,8 +106,8 @@
       "name": "Player2",
       "persistentUuid": "ea0a5a89-11b9-4158-8e17-61118a01936b",
       "width": 64,
-      "x": 224,
-      "y": 352,
+      "x": 32,
+      "y": 32,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -2448,7 +2448,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
