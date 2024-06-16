@@ -81,6 +81,10 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
     },

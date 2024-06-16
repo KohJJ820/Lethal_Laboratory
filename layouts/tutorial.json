@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7370816317994042,
+    "zoomFactor": 0.9296875000000012,
     "windowMask": false
   },
   "objectsGroups": [
@@ -314,7 +314,7 @@
       "name": "Player2",
       "persistentUuid": "46522d12-6ded-48ed-866e-d6c08205df25",
       "width": 64,
-      "x": 704,
+      "x": 672,
       "y": 512,
       "zOrder": 20,
       "numberProperties": [],
@@ -1081,7 +1081,7 @@
       "name": "MoveP1",
       "persistentUuid": "636047c7-7443-4b9d-968c-464ad5219f96",
       "width": 0,
-      "x": 512,
+      "x": 494,
       "y": 480,
       "zOrder": 63,
       "numberProperties": [],
@@ -1097,8 +1097,8 @@
       "name": "MoveP2",
       "persistentUuid": "566e6751-5ecd-4385-bbdb-061e0c1f46b2",
       "width": 0,
-      "x": 672,
-      "y": 480,
+      "x": 640,
+      "y": 479,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -1177,8 +1177,8 @@
       "name": "Spike",
       "persistentUuid": "a0f257ca-20a0-4cf0-9f2e-eb88c09a50d7",
       "width": 0,
-      "x": 448,
-      "y": 288,
+      "x": 416,
+      "y": 300,
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
@@ -1241,7 +1241,7 @@
       "persistentUuid": "5b6bc20d-d30b-4692-9f4f-aebdbe762af2",
       "width": 0,
       "x": 192,
-      "y": 192,
+      "y": 204,
       "zOrder": 71,
       "numberProperties": [],
       "stringProperties": [],
@@ -1326,8 +1326,8 @@
       "name": "Computer",
       "persistentUuid": "0a10428b-1196-40de-9716-237bc71c2a93",
       "width": 0,
-      "x": 682,
-      "y": 288,
+      "x": 672,
+      "y": 290,
       "zOrder": 75,
       "numberProperties": [],
       "stringProperties": [],
@@ -1358,8 +1358,8 @@
       "name": "CoreText",
       "persistentUuid": "bc2bcf81-3b31-47ce-b8b2-e4a4301c4a42",
       "width": 0,
-      "x": 456,
-      "y": 32,
+      "x": 384,
+      "y": 64,
       "zOrder": 77,
       "numberProperties": [],
       "stringProperties": [],
@@ -1374,8 +1374,8 @@
       "name": "PortalText",
       "persistentUuid": "f4fee0ff-f0d9-42ae-af12-483838a720f7",
       "width": 0,
-      "x": 608,
-      "y": 0,
+      "x": 576,
+      "y": 12,
       "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
@@ -1508,9 +1508,9 @@
       "effects": [],
       "behaviors": [],
       "string": "P1\na - move left\nd - move right",
-      "font": "",
+      "font": "assets\\Fonts\\GravityRegular5.ttf",
       "textAlignment": "center",
-      "characterSize": 13,
+      "characterSize": 8,
       "color": {
         "b": 255,
         "g": 255,
@@ -1531,9 +1531,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "P1\na - move left\nd - move right",
-        "font": "",
+        "font": "assets\\Fonts\\GravityRegular5.ttf",
         "textAlignment": "center",
-        "characterSize": 13,
+        "characterSize": 8,
         "color": "255;255;255"
       }
     },
@@ -1548,10 +1548,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "P2\nleft     - move left\nright   - move right",
-      "font": "",
+      "string": "P2\nleft - move left\nright - move right",
+      "font": "assets\\Fonts\\GravityRegular5.ttf",
       "textAlignment": "center",
-      "characterSize": 13,
+      "characterSize": 8,
       "color": {
         "b": 255,
         "g": 255,
@@ -1571,10 +1571,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "P2\nleft     - move left\nright   - move right",
-        "font": "",
+        "text": "P2\nleft - move left\nright - move right",
+        "font": "assets\\Fonts\\GravityRegular5.ttf",
         "textAlignment": "center",
-        "characterSize": 13,
+        "characterSize": 8,
         "color": "255;255;255"
       }
     },
@@ -1595,9 +1595,9 @@
         }
       ],
       "string": "Jump\nP1 - w\nP2 - up",
-      "font": "",
+      "font": "assets\\Fonts\\GravityRegular5.ttf",
       "textAlignment": "left",
-      "characterSize": 13,
+      "characterSize": 8,
       "color": {
         "b": 255,
         "g": 255,
@@ -1618,9 +1618,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Jump\nP1 - w\nP2 - up",
-        "font": "",
+        "font": "assets\\Fonts\\GravityRegular5.ttf",
         "textAlignment": "left",
-        "characterSize": 13,
+        "characterSize": 8,
         "color": "255;255;255"
       }
     },
@@ -1708,9 +1708,9 @@
         }
       ],
       "string": "Beware of the spikes,\nit will cause you to die",
-      "font": "",
+      "font": "assets\\Fonts\\GravityRegular5.ttf",
       "textAlignment": "left",
-      "characterSize": 13,
+      "characterSize": 8,
       "color": {
         "b": 255,
         "g": 255,
@@ -1731,9 +1731,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Beware of the spikes,\nit will cause you to die",
-        "font": "",
+        "font": "assets\\Fonts\\GravityRegular5.ttf",
         "textAlignment": "left",
-        "characterSize": 13,
+        "characterSize": 8,
         "color": "255;255;255"
       }
     },
@@ -1754,9 +1754,9 @@
         }
       ],
       "string": "Step on the button\nto open the door",
-      "font": "",
+      "font": "assets\\Fonts\\GravityRegular5.ttf",
       "textAlignment": "left",
-      "characterSize": 13,
+      "characterSize": 8,
       "color": {
         "b": 255,
         "g": 255,
@@ -1777,9 +1777,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Step on the button\nto open the door",
-        "font": "",
+        "font": "assets\\Fonts\\GravityRegular5.ttf",
         "textAlignment": "left",
-        "characterSize": 13,
+        "characterSize": 8,
         "color": "255;255;255"
       }
     },
@@ -1799,10 +1799,10 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Execute to turn off \nthe barrier\nP1 - e\nP2 - /",
-      "font": "",
+      "string": "Execute to turn \noff the barrier\nP1 - e\nP2 - Rctrl",
+      "font": "assets\\Fonts\\GravityRegular5.ttf",
       "textAlignment": "left",
-      "characterSize": 12,
+      "characterSize": 8,
       "color": {
         "b": 255,
         "g": 255,
@@ -1822,10 +1822,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Execute to turn off \nthe barrier\nP1 - e\nP2 - /",
-        "font": "",
+        "text": "Execute to turn \noff the barrier\nP1 - e\nP2 - Rctrl",
+        "font": "assets\\Fonts\\GravityRegular5.ttf",
         "textAlignment": "left",
-        "characterSize": 12,
+        "characterSize": 8,
         "color": "255;255;255"
       }
     },
@@ -1846,9 +1846,9 @@
         }
       ],
       "string": "climb up\nP1 - w\nP2 - up",
-      "font": "",
+      "font": "assets\\Fonts\\GravityRegular5.ttf",
       "textAlignment": "left",
-      "characterSize": 13,
+      "characterSize": 8,
       "color": {
         "b": 255,
         "g": 255,
@@ -1869,9 +1869,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "climb up\nP1 - w\nP2 - up",
-        "font": "",
+        "font": "assets\\Fonts\\GravityRegular5.ttf",
         "textAlignment": "left",
-        "characterSize": 13,
+        "characterSize": 8,
         "color": "255;255;255"
       }
     },
@@ -1892,9 +1892,9 @@
         }
       ],
       "string": "collect the core",
-      "font": "",
+      "font": "assets\\Fonts\\GravityRegular5.ttf",
       "textAlignment": "left",
-      "characterSize": 13,
+      "characterSize": 8,
       "color": {
         "b": 255,
         "g": 255,
@@ -1915,9 +1915,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "collect the core",
-        "font": "",
+        "font": "assets\\Fonts\\GravityRegular5.ttf",
         "textAlignment": "left",
-        "characterSize": 13,
+        "characterSize": 8,
         "color": "255;255;255"
       }
     },
@@ -1938,9 +1938,9 @@
         }
       ],
       "string": "NOW, \nget in the portal",
-      "font": "",
+      "font": "assets\\Fonts\\GravityRegular5.ttf",
       "textAlignment": "left",
-      "characterSize": 13,
+      "characterSize": 8,
       "color": {
         "b": 255,
         "g": 255,
@@ -1961,9 +1961,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "NOW, \nget in the portal",
-        "font": "",
+        "font": "assets\\Fonts\\GravityRegular5.ttf",
         "textAlignment": "left",
-        "characterSize": 13,
+        "characterSize": 8,
         "color": "255;255;255"
       }
     }
@@ -4339,6 +4339,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
     },
     {
       "name": "Opacity",

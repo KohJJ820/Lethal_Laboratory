@@ -1793,7 +1793,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "90",
+      "string": "120",
       "font": "assets\\Fonts\\GravityRegular5.ttf",
       "textAlignment": "left",
       "characterSize": 20,
@@ -1816,7 +1816,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "90",
+        "text": "120",
         "font": "assets\\Fonts\\GravityRegular5.ttf",
         "textAlignment": "left",
         "characterSize": 20,
@@ -2575,6 +2575,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4429,6 +4430,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "popup",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4837,6 +4839,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "count down",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5221,6 +5224,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
     },
     {
       "name": "Opacity",
