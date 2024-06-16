@@ -2977,6 +2977,35 @@
                 "True"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "currentLevel",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "currentLevel",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -3489,6 +3518,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3579,7 +3609,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "popup",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8326050435466672,
+    "zoomFactor": 0.8606807604415325,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3038,7 +3038,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3821,6 +3820,35 @@
                   "parameters": [
                     "passed",
                     "True"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "currentLevel",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "currentLevel",
+                        "+",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ]

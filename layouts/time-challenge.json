@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.9350055057185496,
+    "zoomFactor": 0.9665341999982198,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -724,7 +724,7 @@
       "name": "Player2",
       "persistentUuid": "384f5ee9-2a23-4882-84e2-2d07b8ac3d3a",
       "width": 64,
-      "x": 576,
+      "x": 0,
       "y": 32,
       "zOrder": 47,
       "numberProperties": [],
@@ -741,7 +741,7 @@
       "name": "Player1",
       "persistentUuid": "757ec16a-45ac-4e92-89d7-d5a86e2db4aa",
       "width": 64,
-      "x": 0,
+      "x": 576,
       "y": 32,
       "zOrder": 48,
       "numberProperties": [],
@@ -2575,7 +2575,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2788,6 +2787,35 @@
               "parameters": [
                 "passed",
                 "True"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "currentLevel",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "currentLevel",
+                    "+",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -3475,7 +3503,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3548,7 +3575,6 @@
           "actions": [],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4812,7 +4838,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "count down",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4828,7 +4853,7 @@
                 "",
                 "\"Count Down\"",
                 "<=",
-                "90"
+                "120"
               ]
             }
           ],
@@ -4841,7 +4866,7 @@
                 "Timer",
                 "Text",
                 "=",
-                "ToString(round(abs(TimerElapsedTime(\"Count Down\") - 90)))"
+                "ToString(round(abs(TimerElapsedTime(\"Count Down\") - 120)))"
               ]
             }
           ]
@@ -4857,7 +4882,7 @@
                 "",
                 "\"Count Down\"",
                 ">=",
-                "90"
+                "120"
               ]
             },
             {
@@ -5160,7 +5185,7 @@
       "isLocked": false,
       "name": "Popup",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
