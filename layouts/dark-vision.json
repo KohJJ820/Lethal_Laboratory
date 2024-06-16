@@ -1659,12 +1659,11 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarGlobal"
+            "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "currentLevel",
-            "=",
-            "2"
+            "passed",
+            "False"
           ]
         },
         {
@@ -1697,7 +1696,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "player movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2228,32 +2226,6 @@
               "parameters": [
                 "allowMovement",
                 "="
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                  },
-                  "parameters": [
-                    "Players",
-                    "Animation"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Players"
-                  ]
-                }
               ]
             }
           ]
@@ -2965,7 +2937,7 @@
                           },
                           "parameters": [
                             "",
-                            "Down"
+                            "RControl"
                           ]
                         }
                       ]
@@ -3427,6 +3399,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "core",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3487,6 +3460,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "teleporter",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

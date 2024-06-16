@@ -3980,7 +3980,7 @@
         "alwaysLoaded": false,
         "file": "assets/Objects/door/tile000.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Objects/door/tile000.png\",\"extension\":\".png\"}",
         "name": "assets\\Objects\\door\\tile000.png",
         "smoothed": false,
         "userAdded": true
@@ -3989,7 +3989,7 @@
         "alwaysLoaded": false,
         "file": "assets/Objects/door/tile001.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Objects/door/tile001.png\",\"extension\":\".png\"}",
         "name": "assets\\Objects\\door\\tile001.png",
         "smoothed": false,
         "userAdded": true
@@ -3998,7 +3998,7 @@
         "alwaysLoaded": false,
         "file": "assets/Objects/door/tile002.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Objects/door/tile002.png\",\"extension\":\".png\"}",
         "name": "assets\\Objects\\door\\tile002.png",
         "smoothed": false,
         "userAdded": true
@@ -4007,7 +4007,7 @@
         "alwaysLoaded": false,
         "file": "assets/Objects/door/tile003.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Objects/door/tile003.png\",\"extension\":\".png\"}",
         "name": "assets\\Objects\\door\\tile003.png",
         "smoothed": false,
         "userAdded": true
@@ -4016,7 +4016,7 @@
         "alwaysLoaded": false,
         "file": "assets/Objects/door/tile004.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Objects/door/tile004.png\",\"extension\":\".png\"}",
         "name": "assets\\Objects\\door\\tile004.png",
         "smoothed": false,
         "userAdded": true
@@ -4025,7 +4025,7 @@
         "alwaysLoaded": false,
         "file": "assets/Objects/door/tile005.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Objects/door/tile005.png\",\"extension\":\".png\"}",
         "name": "assets\\Objects\\door\\tile005.png",
         "smoothed": false,
         "userAdded": true
@@ -4034,7 +4034,7 @@
         "alwaysLoaded": false,
         "file": "assets/Objects/door/tile006.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Objects/door/tile006.png\",\"extension\":\".png\"}",
         "name": "assets\\Objects\\door\\tile006.png",
         "smoothed": false,
         "userAdded": false
@@ -4043,7 +4043,7 @@
         "alwaysLoaded": false,
         "file": "assets/Objects/door/tile007.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Objects/door/tile007.png\",\"extension\":\".png\"}",
         "name": "assets\\Objects\\door\\tile007.png",
         "smoothed": false,
         "userAdded": false
@@ -4131,6 +4131,330 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/close.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/open.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "open",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/open2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "open2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/open3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "open3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/open4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "open4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/open5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "open5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/close2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/close3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/close4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/close5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/open6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "open6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/open7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "open7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/open8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "open8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/open9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "open9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/open10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "open10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/close6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/close7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/close8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/close9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "close9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/trigger.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "trigger",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/trigger2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "trigger2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/trigger3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "trigger3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/release.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "release",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/release2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "release2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/release3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "release3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/trigger4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "trigger4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/trigger5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "trigger5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/trigger6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "trigger6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/release4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "release4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/release5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "release5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/release6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "release6",
         "smoothed": false,
         "userAdded": false
       }
@@ -14057,6 +14381,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -14105,6 +14430,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -14293,6 +14619,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -14465,11 +14792,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile000.png",
+                  "image": "idle2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14513,11 +14841,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile000.png",
+                  "image": "open",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14553,7 +14882,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile001.png",
+                  "image": "open2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14589,7 +14918,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile002.png",
+                  "image": "open3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14625,7 +14954,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile003.png",
+                  "image": "open4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14661,7 +14990,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile004.png",
+                  "image": "open5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14701,11 +15030,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile004.png",
+                  "image": "close2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14737,43 +15067,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile005.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile006.png",
+                  "image": "close3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14809,7 +15103,24 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile007.png",
+                  "image": "close4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "close5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14873,11 +15184,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile000.png",
+                  "image": "idle3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14921,11 +15233,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile000.png",
+                  "image": "open6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14961,7 +15274,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile001.png",
+                  "image": "open7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14997,7 +15310,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile002.png",
+                  "image": "open8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15033,7 +15346,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile003.png",
+                  "image": "open9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15069,7 +15382,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile004.png",
+                  "image": "open10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15109,11 +15422,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile004.png",
+                  "image": "close6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15145,43 +15459,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile005.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile006.png",
+                  "image": "close7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15217,7 +15495,43 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\door\\tile007.png",
+                  "image": "close8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "close9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15273,11 +15587,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile000.png",
+                  "image": "idle4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15321,11 +15636,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile000.png",
+                  "image": "trigger",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15361,7 +15677,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile001.png",
+                  "image": "trigger2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15397,7 +15713,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile002.png",
+                  "image": "trigger3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15441,11 +15757,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile002.png",
+                  "image": "release",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15481,7 +15798,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile001.png",
+                  "image": "release2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15517,7 +15834,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile000.png",
+                  "image": "release3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15573,11 +15890,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile000.png",
+                  "image": "idle5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15621,11 +15939,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile000.png",
+                  "image": "trigger4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15661,7 +15980,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile001.png",
+                  "image": "trigger5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15697,7 +16016,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile002.png",
+                  "image": "trigger6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15741,11 +16060,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile002.png",
+                  "image": "release4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15781,7 +16101,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile001.png",
+                  "image": "release5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15817,7 +16137,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Objects\\button\\tile000.png",
+                  "image": "release6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16647,9 +16967,9 @@
     },
     {
       "folded": true,
-      "name": "currentLevel",
-      "type": "number",
-      "value": 0
+      "name": "passed",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -16684,14 +17004,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/boss-battle"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/game-over-screen"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/winning-screen"
     }
   ],
   "externalEvents": [],

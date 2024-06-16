@@ -18,18 +18,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7791712547654587,
+    "zoomFactor": 0.5975970727213821,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [
-    {
-      "folded": true,
-      "name": "passed",
-      "type": "boolean",
-      "value": false
-    }
-  ],
+  "variables": [],
   "instances": [
     {
       "angle": 0,
@@ -1739,12 +1732,11 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarGlobal"
+            "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "currentLevel",
-            "=",
-            "2"
+            "passed",
+            "False"
           ]
         },
         {
@@ -1777,7 +1769,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "player movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2063,17 +2054,7 @@
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Player1",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -2110,6 +2091,81 @@
                             "PlatformerObject"
                           ]
                         }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "ladder",
+                            "Player1",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Player1",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "s"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "ladder",
+                        "Player1",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateLadderKey"
+                      },
+                      "parameters": [
+                        "Player1",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateDownKey"
+                      },
+                      "parameters": [
+                        "Player1",
+                        "PlatformerObject"
                       ]
                     }
                   ]
@@ -2184,22 +2240,12 @@
                         "value": "KeyPressed"
                       },
                       "parameters": [
-                        "Player2",
+                        "",
                         "Up"
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Player2",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -2236,6 +2282,81 @@
                             "PlatformerObject"
                           ]
                         }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "ladder",
+                            "Player2",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Player2",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Down"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "ladder",
+                        "Player2",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateLadderKey"
+                      },
+                      "parameters": [
+                        "Player2",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateDownKey"
+                      },
+                      "parameters": [
+                        "Player2",
+                        "PlatformerObject"
                       ]
                     }
                   ]
@@ -2310,32 +2431,6 @@
                 "="
               ]
             }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                  },
-                  "parameters": [
-                    "Players",
-                    "Animation"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Players"
-                  ]
-                }
-              ]
-            }
           ]
         }
       ],
@@ -2346,6 +2441,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2970,6 +3066,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2979,7 +3076,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "control panel",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3045,7 +3141,7 @@
                           },
                           "parameters": [
                             "",
-                            "Down"
+                            "RControl"
                           ]
                         }
                       ]
@@ -3329,7 +3425,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3671,25 +3766,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "currentLevel",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetSceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "passed",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -3764,6 +3840,15 @@
                     "Animation",
                     "=",
                     "\"disappear\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "passed",
+                    "True"
                   ]
                 }
               ]
@@ -3919,7 +4004,7 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneVariableAsBoolean"
+                "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
                 "passed",
@@ -3934,14 +4019,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.5"
-              ]
-            },
             {
               "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -4171,7 +4248,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Dark Vision\"",
+                    "\"Time Challenge\"",
                     ""
                   ]
                 }
