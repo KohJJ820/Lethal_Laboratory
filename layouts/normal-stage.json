@@ -2098,15 +2098,11 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "CollisionNP"
+                            "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
-                            "ladder",
-                            "Player1",
-                            "",
-                            "",
-                            ""
+                            "Players",
+                            "PlatformerObject"
                           ]
                         }
                       ],

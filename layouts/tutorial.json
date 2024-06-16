@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6040838749988878,
+    "zoomFactor": 0.7370816317994042,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2067,7 +2067,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "player movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2397,15 +2396,11 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "CollisionNP"
+                            "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
-                            "ladder",
-                            "Player1",
-                            "",
-                            "",
-                            ""
+                            "Players",
+                            "PlatformerObject"
                           ]
                         }
                       ],
@@ -3481,7 +3476,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
