@@ -3609,6 +3609,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "popup",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

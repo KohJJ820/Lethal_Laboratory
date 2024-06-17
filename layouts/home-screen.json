@@ -391,7 +391,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "LevelSelect",
-      "name": "Boss",
+      "name": "BossText",
       "persistentUuid": "3add0acb-257b-41f9-b38b-52055872b745",
       "width": 0,
       "x": 365,
@@ -1175,7 +1175,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Boss",
+      "name": "BossText",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -1630,7 +1630,7 @@
         "objectName": "DarkVision"
       },
       {
-        "objectName": "Boss"
+        "objectName": "BossText"
       },
       {
         "objectName": "ControlP1"
@@ -1802,7 +1802,7 @@
                     "value": "Sticker::Sticker::Stick"
                   },
                   "parameters": [
-                    "Boss",
+                    "BossText",
                     "Sticker",
                     "PopUp",
                     ""
@@ -2511,7 +2511,7 @@
                             "value": "SourisSurObjet"
                           },
                           "parameters": [
-                            "Boss",
+                            "BossText",
                             "",
                             "",
                             ""
