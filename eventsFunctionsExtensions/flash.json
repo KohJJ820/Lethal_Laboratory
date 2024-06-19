@@ -43,6 +43,8 @@
     "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
   ],
   "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
   "eventsFunctions": [
     {
       "description": "Color tint applied to an object.",

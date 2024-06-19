@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.96653419999822,
+    "zoomFactor": 0.792134411799823,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -351,8 +351,8 @@
       "name": "Player1",
       "persistentUuid": "b9cca2c0-24df-4004-bd0b-d77bd3da76ed",
       "width": 64,
-      "x": 128,
-      "y": 512,
+      "x": 640,
+      "y": 352,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -614,8 +614,8 @@
       "name": "Boss",
       "persistentUuid": "ed8da48b-2e3d-40d2-bf41-6152d9f42462",
       "width": 0,
-      "x": 544,
-      "y": 144,
+      "x": 302,
+      "y": 352,
       "zOrder": 0,
       "numberProperties": [
         {
@@ -632,13 +632,13 @@
       "depth": 1,
       "height": 288,
       "keepRatio": true,
-      "layer": "Boss",
+      "layer": "Objects",
       "name": "Executor",
       "persistentUuid": "b16128fb-337d-4873-aaea-592dacfa7e6b",
       "width": 256,
       "x": 280,
       "y": 288,
-      "zOrder": 33,
+      "zOrder": 0,
       "numberProperties": [
         {
           "name": "animation",
@@ -1184,8 +1184,8 @@
       "name": "BossAtk",
       "persistentUuid": "f3188e6e-1fd5-48e9-93ec-82e9f0dc6f30",
       "width": 112,
-      "x": 656,
-      "y": 184,
+      "x": 416,
+      "y": 384,
       "zOrder": 47,
       "numberProperties": [
         {
@@ -3690,7 +3690,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3734,12 +3733,13 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "MachineActivated",
+                "ControlPanel",
+                "Animation",
                 "=",
-                "0"
+                "\"idleActivated\""
               ]
             }
           ],
@@ -3758,6 +3758,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "MachineActivated",
+                    "=",
+                    "0"
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -3781,38 +3791,11 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Spikes",
-                "id",
-                "=",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "LinkedObjects::LinkObjects"
-              },
-              "parameters": [
-                "",
-                "MovingMiddleStraightTile2",
-                "Spikes"
-              ]
-            }
-          ]
-        },
         {
           "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
