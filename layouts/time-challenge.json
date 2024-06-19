@@ -2575,7 +2575,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2667,6 +2666,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3123,7 +3123,6 @@
           ],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3504,6 +3503,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4147,7 +4147,7 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
-      "name": "Obstacles",
+      "name": "obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
