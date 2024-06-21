@@ -6860,6 +6860,42 @@
         "name": "assets\\deactivate55.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_38.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_39.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_40.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_41.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -23290,10 +23326,65 @@
           "name": "health",
           "type": "number",
           "value": 2
+        },
+        {
+          "name": "idle",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "folded": true,
+          "name": "attackForm",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "spawnX",
+          "type": "number",
+          "value": 302
+        },
+        {
+          "folded": true,
+          "name": "spawnY",
+          "type": "number",
+          "value": 352
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.2,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        },
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 0,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "fly",
@@ -26080,7 +26171,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "assets\\Objects\\bullets\\All_Fire_Bullet_Pixel_16x16_01_342",
+          "name": "bullet",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -26129,11 +26220,11 @@
           ]
         },
         {
-          "name": "assets\\Objects\\bullets\\All_Fire_Bullet_Pixel_16x16_01_38",
+          "name": "laser",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.1,
               "sprites": [
@@ -28094,6 +28185,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/homingprojectile"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/buttonstates"
