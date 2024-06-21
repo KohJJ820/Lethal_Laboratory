@@ -2072,54 +2072,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "BossAtkStage",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Sticker",
-          "type": "Sticker::Sticker",
-          "OnlyFollowPosition": false,
-          "IsDestroyedWithParent": false
-        }
-      ],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": true,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 20,
-        "color": "0;0;0"
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -2130,9 +2082,6 @@
       },
       {
         "objectName": "BossLaser"
-      },
-      {
-        "objectName": "BossAtkStage"
       }
     ]
   },
@@ -2209,46 +2158,6 @@
             "Opacity",
             "=",
             "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "BossAtkStage",
-            "Boss.X()",
-            "Boss.Y()",
-            "\"Boss\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Sticker::Sticker::Stick"
-          },
-          "parameters": [
-            "BossAtkStage",
-            "Sticker",
-            "Boss",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "BossAtkStage",
-            "Text",
-            "=",
-            "Boss.attackForm + \", idle: \" + Boss.idle"
           ]
         }
       ]
@@ -6340,7 +6249,7 @@
       "isLocked": false,
       "name": "Popup",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
