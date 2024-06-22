@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Home Screen",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -6896,6 +6896,276 @@
         "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_41.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Audio/Players/08_Step_rock_02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Players\\08_Step_rock_02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/Players/30_Jump_03.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Players\\30_Jump_03.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/Players/88_Teleport_02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Players\\88_Teleport_02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/Players/61_Hit_03.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Players\\61_Hit_03.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/Players/42_Cling_climb_03.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Players\\42_Cling_climb_03.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/Players/sfx_player_footsteps.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Players\\sfx_player_footsteps.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/Players/sfx_player_jump.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Players\\sfx_player_jump.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/confirmation_001.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\confirmation_001.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/BGM/normal_stage.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\BGM\\normal_stage.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/BGM/time_challenge.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\BGM\\time_challenge.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/BGM/dark_stage.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\BGM\\dark_stage.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/BGM/boss_battle.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\BGM\\boss_battle.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/confirmation_003.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\confirmation_003.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/laserRetro_001.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\laserRetro_001.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/toggle_001.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\toggle_001.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/forceField_000.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\forceField_000.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/FilmCow SFX - Mechanisms & Movement/metal button 2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\FilmCow SFX - Mechanisms & Movement\\metal button 2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/FilmCow SFX - Mechanisms & Movement/metal case close 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\FilmCow SFX - Mechanisms & Movement\\metal case close 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/FilmCow SFX - Mechanisms & Movement/metal case open 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\FilmCow SFX - Mechanisms & Movement\\metal case open 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/Other SFX/fire whoosh.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Other SFX\\fire whoosh.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/laserLarge_004.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\laserLarge_004.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/explosionCrunch_001.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\explosionCrunch_001.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/drop_001.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\drop_001.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Audio/Boss/boss_fly.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Boss\\boss_fly.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/Boss/boss_atk2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Boss\\boss_atk2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/laserLarge_003.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\laserLarge_003.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/Boss/boss_death.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Boss\\boss_death.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

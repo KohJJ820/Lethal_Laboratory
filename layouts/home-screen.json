@@ -1645,6 +1645,39 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "assets\\Audio\\confirmation_001.ogg"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "assets\\Audio\\confirmation_003.ogg"
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -1974,6 +2007,18 @@
                     "LevelSelectOpen",
                     "False"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\confirmation_003.ogg",
+                    "",
+                    "15",
+                    ""
+                  ]
                 }
               ]
             },
@@ -2115,6 +2160,18 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Audio\\confirmation_001.ogg",
+                        "",
+                        "30",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                       },
                       "parameters": [
@@ -2225,6 +2282,18 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Audio\\confirmation_001.ogg",
+                        "",
+                        "30",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
@@ -2339,6 +2408,18 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Audio\\confirmation_001.ogg",
+                        "",
+                        "30",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                       },
                       "parameters": [
@@ -2451,6 +2532,18 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Audio\\confirmation_001.ogg",
+                        "",
+                        "30",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                       },
                       "parameters": [
@@ -2561,6 +2654,18 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Audio\\confirmation_001.ogg",
+                        "",
+                        "30",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
@@ -2723,6 +2828,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Audio\\confirmation_003.ogg",
+                    "",
+                    "15",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
@@ -2821,6 +2938,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Audio\\confirmation_001.ogg",
+            "",
+            "30",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "SetSceneVariableAsBoolean"
           },
           "parameters": [
@@ -2864,6 +2993,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Audio\\confirmation_001.ogg",
+            "",
+            "30",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "SetSceneVariableAsBoolean"
