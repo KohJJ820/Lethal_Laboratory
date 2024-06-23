@@ -3310,6 +3310,15 @@
                 "passed",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Count Down\""
+              ]
             }
           ],
           "events": [
@@ -5058,7 +5067,17 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Count Down\""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5444,15 +5463,6 @@
               "parameters": [
                 "",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "PauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"Count Down\""
               ]
             }
           ],
