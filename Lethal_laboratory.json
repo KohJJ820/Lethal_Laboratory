@@ -6865,7 +6865,7 @@
         "alwaysLoaded": false,
         "file": "assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_38.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_38.png\",\"extension\":\".png\"}",
         "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_38.png",
         "smoothed": false,
         "userAdded": true
@@ -6874,7 +6874,7 @@
         "alwaysLoaded": false,
         "file": "assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_39.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_39.png\",\"extension\":\".png\"}",
         "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_39.png",
         "smoothed": false,
         "userAdded": true
@@ -6883,7 +6883,7 @@
         "alwaysLoaded": false,
         "file": "assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_40.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_40.png\",\"extension\":\".png\"}",
         "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_40.png",
         "smoothed": false,
         "userAdded": true
@@ -6892,7 +6892,7 @@
         "alwaysLoaded": false,
         "file": "assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_41.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_41.png\",\"extension\":\".png\"}",
         "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_41.png",
         "smoothed": false,
         "userAdded": true
@@ -7166,6 +7166,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_41.png\"}",
+        "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_41",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -25032,6 +25041,78 @@
               "looping": false,
               "timeBetweenFrames": 0.1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Characters\\Boss\\death\\death_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 32
+                      },
+                      {
+                        "x": 143,
+                        "y": 32
+                      },
+                      {
+                        "x": 143,
+                        "y": 92
+                      },
+                      {
+                        "x": 48,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Characters\\Boss\\death\\death_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 32
+                      },
+                      {
+                        "x": 143,
+                        "y": 32
+                      },
+                      {
+                        "x": 143,
+                        "y": 92
+                      },
+                      {
+                        "x": 48,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Characters\\Boss\\death\\death_3.png",

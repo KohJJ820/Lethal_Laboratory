@@ -1916,11 +1916,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_38",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -2072,6 +2073,72 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BossLaser2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_41",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\assets_Objects_bullets_All_Fire_Bullet_Pixel_16x16_01_41",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 9
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 9
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 16,
+                        "y": 4
+                      },
+                      {
+                        "x": 16,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2082,6 +2149,9 @@
       },
       {
         "objectName": "BossLaser"
+      },
+      {
+        "objectName": "BossLaser2"
       }
     ]
   },
@@ -2253,7 +2323,7 @@
             "assets\\Audio\\BGM\\boss_battle.mp3",
             "0",
             "yes",
-            "3",
+            "20",
             ""
           ]
         }
@@ -2264,6 +2334,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "player movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3319,6 +3390,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4840,6 +4912,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5571,7 +5644,7 @@
                                     "Boss",
                                     "Tween",
                                     "\"moveToPlayer\"",
-                                    "Player1.X()",
+                                    "Player1.X() + 30",
                                     "Player1.Y() - 30",
                                     "\"linear\"",
                                     "2",
@@ -5603,7 +5676,7 @@
                                     "Boss",
                                     "Tween",
                                     "\"moveToPlayer\"",
-                                    "Player1.X()",
+                                    "Player1.X() - 30",
                                     "Player1.Y() - 30",
                                     "\"linear\"",
                                     "2",
@@ -5846,6 +5919,23 @@
                                 "True",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "BossAtk",
+                                ""
+                              ]
                             }
                           ]
                         },
@@ -6019,6 +6109,41 @@
                             },
                             {
                               "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "BossLaser2",
+                                "Boss.CenterX()",
+                                "Boss.CenterY()",
+                                "\"BossAtks\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "BossLaser2",
+                                "Resizable",
+                                "=",
+                                "DistanceBetweenPositions(Boss.CenterX(), Boss.CenterY(), Player1.CenterX(), Player1.CenterY()) - 10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RotateTowardPosition"
+                              },
+                              "parameters": [
+                                "BossLaser2",
+                                "Player1.CenterX()",
+                                "Player1.CenterY()",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "Wait"
                               },
                               "parameters": [
@@ -6030,23 +6155,11 @@
                                 "value": "Create"
                               },
                               "parameters": [
-                                "",
+                                "1",
                                 "BossLaser",
-                                "Boss.CenterX()",
-                                "Boss.CenterY()",
+                                "BossLaser2.X()",
+                                "BossLaser2.Y()",
                                 "\"BossAtks\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "assets\\Audio\\laserLarge_003.ogg",
-                                "",
-                                "10",
-                                ""
                               ]
                             },
                             {
@@ -6057,7 +6170,7 @@
                                 "BossLaser",
                                 "Resizable",
                                 "=",
-                                "DistanceBetweenPositions(Boss.CenterX(), Boss.CenterY(), Player1.CenterX(), Player1.CenterY()) - 10"
+                                "BossLaser2.Width()"
                               ]
                             },
                             {
@@ -6069,6 +6182,27 @@
                                 "Player1.CenterX()",
                                 "Player1.CenterY()",
                                 "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "BossLaser2",
+                                "Player1.CenterX()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "assets\\Audio\\laserLarge_003.ogg",
+                                "",
+                                "10",
                                 ""
                               ]
                             },
@@ -6888,7 +7022,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "popup",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7141,6 +7274,15 @@
                 "1.2",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
             }
           ],
           "events": [
@@ -7314,7 +7456,7 @@
       "isLocked": false,
       "name": "Background",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -7578,7 +7720,7 @@
       "isLocked": false,
       "name": "Popup",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

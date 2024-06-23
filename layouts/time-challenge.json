@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9045052888202103,
+    "zoomFactor": 0.9665341999982198,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1984,7 +1984,7 @@
             "assets\\Audio\\BGM\\time_challenge.mp3",
             "0",
             "yes",
-            "2",
+            "20",
             ""
           ]
         }
@@ -5436,6 +5436,24 @@
                 "1.2",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Count Down\""
+              ]
             }
           ],
           "events": [
@@ -5937,7 +5955,7 @@
       "isLocked": false,
       "name": "Popup",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
