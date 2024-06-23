@@ -5416,7 +5416,7 @@
                 "100",
                 "10",
                 "200",
-                "10",
+                "2",
                 "yes",
                 ""
               ]
@@ -5919,23 +5919,6 @@
                                 "True",
                                 ""
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "BossAtk",
-                                ""
-                              ]
                             }
                           ]
                         },
@@ -6175,12 +6158,11 @@
                             },
                             {
                               "type": {
-                                "value": "RotateTowardPosition"
+                                "value": "RotateTowardAngle"
                               },
                               "parameters": [
                                 "BossLaser",
-                                "Player1.CenterX()",
-                                "Player1.CenterY()",
+                                "BossLaser2.Angle()",
                                 "0",
                                 ""
                               ]
