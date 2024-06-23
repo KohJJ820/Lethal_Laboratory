@@ -6833,12 +6833,6 @@
                     "=",
                     "0"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -6898,18 +6892,6 @@
                   "parameters": [
                     "passed",
                     "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\Audio\\Boss\\boss_death.mp3",
-                    "no",
-                    "5",
                     ""
                   ]
                 }
