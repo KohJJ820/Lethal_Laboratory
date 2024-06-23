@@ -5623,7 +5623,7 @@
                 "",
                 "\"Count Down\"",
                 "<=",
-                "120"
+                "150"
               ]
             }
           ],
@@ -5636,7 +5636,7 @@
                 "Timer",
                 "Text",
                 "=",
-                "\"TIME LEFT:\" + NewLine() + ToString(round(abs(TimerElapsedTime(\"Count Down\") - 120)))"
+                "\"TIME LEFT:\" + NewLine() + ToString(round(abs(TimerElapsedTime(\"Count Down\") - 150)))"
               ]
             }
           ]
@@ -5652,7 +5652,7 @@
                 "",
                 "\"Count Down\"",
                 ">=",
-                "120"
+                "150"
               ]
             },
             {

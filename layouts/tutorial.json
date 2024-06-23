@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.9610368693714734,
+    "zoomFactor": 1.0615714305219992,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1402,7 +1402,7 @@
       "depth": 1,
       "height": 32,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Tiles",
       "name": "MiddleStraightTile",
       "persistentUuid": "52e2a4b4-c7aa-4e24-82ca-703fa51b3d10",
       "width": 256,
@@ -1418,7 +1418,7 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Tiles",
       "name": "RightTile",
       "persistentUuid": "ecdf9e68-93d6-4bfb-a1a0-7e6565ed0652",
       "width": 0,
@@ -4692,7 +4692,7 @@
       "isLocked": false,
       "name": "Background",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -4923,7 +4923,7 @@
       "isLocked": false,
       "name": "Popup",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
