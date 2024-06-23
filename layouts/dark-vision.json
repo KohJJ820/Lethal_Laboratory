@@ -3864,7 +3864,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4900,7 +4899,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "popup",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4963,10 +4961,12 @@
           "conditions": [
             {
               "type": {
-                "value": "GlobalVariableAsBoolean"
+                "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "allowMovement",
+                "Players",
+                "alive",
+                "False",
                 ""
               ]
             },
