@@ -200,7 +200,7 @@
               },
               "parameters": [
                 "currentLevel",
-                ">",
+                "=",
                 "5"
               ]
             }

@@ -7161,37 +7161,26 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
               },
               "parameters": [
-                "PopupTitle",
-                "Text",
-                "=",
-                "\"YOU WIN!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "PopupTitle",
-                "=",
-                "285"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-              },
-              "parameters": [
-                "PopUpBackground",
+                "Cover",
                 "Tween",
-                "\"moveUp\"",
-                "130",
+                "\"appear\"",
+                "255",
                 "\"easeOutQuad\"",
-                "1.2",
+                "1",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Story\"",
+                "yes"
               ]
             }
           ]
