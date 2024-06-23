@@ -5646,8 +5646,8 @@
                                     "\"moveToPlayer\"",
                                     "Player1.X() + 30",
                                     "Player1.Y() - 30",
-                                    "\"linear\"",
-                                    "2",
+                                    "\"easeOutQuad\"",
+                                    "3",
                                     ""
                                   ]
                                 }
@@ -5678,8 +5678,8 @@
                                     "\"moveToPlayer\"",
                                     "Player1.X() - 30",
                                     "Player1.Y() - 30",
-                                    "\"linear\"",
-                                    "2",
+                                    "\"easeOutQuad\"",
+                                    "3",
                                     ""
                                   ]
                                 }
@@ -5703,7 +5703,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "3"
+                                "4"
                               ]
                             },
                             {

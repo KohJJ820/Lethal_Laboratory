@@ -5067,17 +5067,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "PauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"Count Down\""
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5120,6 +5110,15 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Count Down\""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetObjectVariableAsBoolean"
@@ -5632,7 +5631,7 @@
               "parameters": [
                 "",
                 "\"Count Down\"",
-                "<=",
+                "<",
                 "150"
               ]
             }
