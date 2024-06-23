@@ -5919,6 +5919,15 @@
                                 "True",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "BossAtk",
+                                ""
+                              ]
                             }
                           ]
                         },
